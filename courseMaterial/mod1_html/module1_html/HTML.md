@@ -1,6 +1,6 @@
 # Welcome! 
 
-In this class we'll be learning about HTML, CSS, Javascript, Jquery, PHP and MySql! Throughout the weeks, you'll be taken from making quite literally the most introductory site to making your own static site via GitHub pages, and if you go far enough, we'll be able to take to you developing your own dynamic websites! 
+In this class we'll be learning about HTML, CSS, Javascript, Jquery, PHP and MySQL! Throughout the weeks, you'll be taken from making quite literally the most introductory site to making your own static site via GitHub pages, and if you go far enough, we'll be able to take to you developing your own dynamic websites! 
 
 ## What you will need: 
 
