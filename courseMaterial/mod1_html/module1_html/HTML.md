@@ -353,6 +353,98 @@ Headers get consecutively smaller as the numbers go! Be sure not to go too small
 
 
 
+### Links 
+
+Anchor elements `<a>` can use an `href` to point to a link!  Why don't you [click on THIS link](https://codepen.io/bdpastl/pen/EMeWqq)! 
+
+```html
+<!doctype html> 
+<html>
+  <head>
+  </head>
+  <body style='background-color:lightblue'>
+    <h1 style='border-left: 1px solid blue; padding: 10px'> The internet is a series of links! </h1> 
+		<hr />
+   <div>
+         Sometimes you'll want to link to a new site, or a new page! <a href='https://bdpastl.github.io'>I am a link! Please click me</a>. By including links in your site, you can create a create a very dynamic experience! 
+    </div>
+    
+  </body>
+</html>
+```
+
+
+
+You can also link to other portions of your page (but since our pages aren't big enough, we're not going to tackle this yet) by using the anchor tag with an ID: 
+
+
+
+```html
+<!doctype html> 
+<html>
+  <head>
+  </head>
+  <body style='background-color:lightblue'>
+    <h1 style='border-left: 1px solid blue; padding: 10px'> The internet is a series of links! </h1> 
+		<hr />
+   <div>
+        Suppose I wanted to make sure somebody could navigate right to a spot on my page! I could then write an anchor with the attribute <a id='comeToMe'> to come directly to this spot</a>. 
+    </div>
+    
+    <div>
+      On a completely different spot on the same page, I can we can create a navigation href by saying <a href='#comeToMe'>click here to go to the other spot!</a>
+    </div>
+    
+  </body>
+</html>
+```
+
+It's good to know that we can do this. Once our sites are large enough, we'll be able to navigate internally! 
+
+
+
+### Images 
+
+When you need to source a link (to either an image or to a new site), you need to use the src attribute! The `<img />` element needs attributes! Especially since there's no real text we want to have inside of our image. There are multiple ways to upload an image to your site, but for now, let's just grab a link. We need to place the link as a value for the source attribute, like below! [See the code in action!](https://codepen.io/bdpastl/pen/OqomzZ) 
+
+```html	
+<!doctype html> 
+<html>
+  <head>
+  </head>
+  <body style='background-color:lightblue'>
+    <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1> 
+		<hr />
+   	<div>
+       Check out this beautiful image of my old pet, Rosie! 
+        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' />
+    </div>
+  
+  </body>
+</html>
+```
+
+Now the width of my old photo is pretty big… Photos often have differing sizes, so we often need to scale them ourselves! [Check it out:](https://codepen.io/bdpastl/pen/qvMmoq) 
+
+```html
+<!doctype html> 
+<html>
+  <head>
+  </head>
+  <body style='background-color:lightblue'>
+    <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1> 
+		<hr />
+   	<div>
+       Check out this beautiful image of my old pet, Rosie! 
+        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' style='width:500; height:500' />
+    </div>
+  
+  </body>
+</html>
+```
+
+
+
 ### Lists:
 
 So, we just listed all of those really cool things we want to do above! How would we actually write a list of things we like on our about me pages? How about a list? 
@@ -593,100 +685,6 @@ Padding and Margins helps us add some space around our content! Padding makes th
 ```
 
 You may have noticed that we didn't remove the borders! You can add as many styles as you want, just so long as they're broken up by semi-colons! 
-
-
-
-### HREF 
-
-Anchor elements `<a>` can use an `href` to point to a link! Why don't you c[lick on THIS link](https://codepen.io/bdpastl/pen/EMeWqq)! 
-
-```html
-<!doctype html> 
-<html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> The internet is a series of links! </h1> 
-		<hr />
-   <div>
-         Sometimes you'll want to link to a new site, or a new page! <a href='https://bdpastl.github.io'>I am a link! Please click me</a>. By including links in your site, you can create a create a very dynamic experience! 
-    </div>
-    
-  </body>
-</html>
-```
-
-
-
-You can also link to other portions of your page (but since our pages aren't big enough, we're not going to tackle this yet) by using the anchor tag with an ID: 
-
-
-
-```html
-<!doctype html> 
-<html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> The internet is a series of links! </h1> 
-		<hr />
-   <div>
-        Suppose I wanted to make sure somebody could navigate right to a spot on my page! I could then write an anchor with the attribute <a id='comeToMe'> to come directly to this spot</a>. 
-    </div>
-    
-    <div>
-      On a completely different spot on the same page, I can we can create a navigation href by saying <a href='#comeToMe'>click here to go to the other spot!</a>
-    </div>
-    
-  </body>
-</html>
-```
-
-It's good to know that we can do this. Once our sites are large enough, we'll be able to navigate internally! 
-
-
-
-### SRC 
-
-When you need to source a link (to either an image or to a new site), you need to use the src attribute! The `<img />` element needs attributes! Especially since there's no real text we want to have inside of our image. There are multiple ways to upload an image to your site, but for now, let's just grab a link. We need to place the link as a value for the source attribute, like below! [See the code in action!](https://codepen.io/bdpastl/pen/OqomzZ) 
-
-
-
-```html	
-<!doctype html> 
-<html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1> 
-		<hr />
-   	<div>
-       Check out this beautiful image of my old pet, Rosie! 
-        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' />
-    </div>
-  
-  </body>
-</html>
-```
-
-Now the width of my old photo is pretty big… Photos often have differing sizes, so we often need to scale them ourselves! [Check it out:](https://codepen.io/bdpastl/pen/qvMmoq) 
-
-```html
-<!doctype html> 
-<html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1> 
-		<hr />
-   	<div>
-       Check out this beautiful image of my old pet, Rosie! 
-        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' style='width:500; height:500' />
-    </div>
-  
-  </body>
-</html>
-```
 
 
 
