@@ -62,15 +62,15 @@ Here's a quick Table of Contents to jump around:
 
 Web development is the process of desinging and creating a Website for the internet. Websites can be simple pages with text, images, and links:
 
-	- [BDPA STL](https://bdpastl.github.io/)
-	- [UK Government](https://www.gov.uk/)
-	- [The First Website ever made!](http://info.cern.ch/hypertext/WWW/TheProject.html)
+- [BDPA STL](https://bdpastl.github.io/)
+- [UK Government](https://www.gov.uk/)
+- [The First Website ever made!](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
  Website can also be conmplicated, dynamic pages where content is streamed, uploaded, and always changing:
 
-	- [Youtube](https://youtube.com)
-	- [Twitter](https://twitter.com)
-	- [Google](https://google.com)
+- [Youtube](https://youtube.com)
+- [Twitter](https://twitter.com)
+- [Google](https://google.com)
 
 
 
