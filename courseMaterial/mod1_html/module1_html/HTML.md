@@ -58,7 +58,17 @@ Here's a quick Table of Contents to jump around:
 
 
 
-## What is Web Development?
+## What is the Web?
+
+### The Internet
+
+[The internet is a system of computer networks that are all connected](https://i.imgur.com/9Sqim7F.png). Originally used by the US Military and Academic Universities, the internet has changed the way the world shares news, information, and ideas. When you watch a movie on Netflix, you're on the internet! When you play a videogame over XBox Live, you're on the internet! If you're reading this webpage, you're on the internet!
+
+Most people connect to the internet via their Internet Service Provided, also known as an "ISP". Your ISP could be a mobile tellecomuncation company - like Sprint or T-Mobile, a cable company - like Spectrum, or even a dial-up internet company, like AOL.
+
+### Web Browsers
+
+### Web Development
 
 Web development is the process of desinging and creating a Website for the internet. Websites can be simple pages with text, images, and links:
 
