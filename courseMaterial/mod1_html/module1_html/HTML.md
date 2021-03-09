@@ -2,6 +2,8 @@
 
 In this class we'll be learning about HTML, CSS, Javascript, Jquery, PHP and MySQL! Throughout the weeks, you'll be taken from making quite literally the most introductory site to making your own static site via GitHub pages, and if you go far enough, we'll be able to take to you developing your own dynamic websites!
 
+[TOC]
+
 ## What you will need:
 
 1. Code Editor: Any text editor will do for writing HTML/CSS/JS/etc, but we want something with a little more oomph. Try downloading [VS Code](https://code.visualstudio.com/), it has syntax highlighting which means we have special colors for special parts of the code, kind of like this:
@@ -49,13 +51,6 @@ In this class we'll be learning about HTML, CSS, Javascript, Jquery, PHP and MyS
    3. [Slack](https://slack.com/): Slack is a webapp (and a downloadable app) that allows for us to converse quickly and easily (and to share code quickly). You should have received an email to join our slack, but if not, please let us know!
 
 Now, onto the fun stuff:
-
-
-
-Here's a quick Table of Contents to jump around:
-
-[TOC]
-
 
 
 ## What is the Web?
