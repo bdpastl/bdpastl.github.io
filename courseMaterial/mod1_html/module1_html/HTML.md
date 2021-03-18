@@ -6,49 +6,15 @@ In this class we'll be learning about HTML, CSS, Javascript, Jquery, PHP and MyS
 
 ## What you will need:
 
-1. Code Editor: Any text editor will do for writing HTML/CSS/JS/etc, but we want something with a little more oomph. Try downloading [VS Code](https://code.visualstudio.com/), it has syntax highlighting which means we have special colors for special parts of the code, kind of like this:
+- A computer
 
-   ```html
-   <!doctype html>
-   <html>
-     <head>
-       <script type='text/javascript'>
-           function allowDrop(e) {
-               e.preventDefault()
-               /* prevents the image from moving back to its natural area */
-           }
+- A [CodeHS](https://codehs.com/) Account.
+  - If you haven't already, [**Please create an account here**](https://codehs.com/go/9854E). If you don't have a school-issued email address, you can use your personal email address.
+  - Enter **9854E** has the Class Code.
 
-           function drag(e) {
-               e.dataTransfer.setData('Text', e.target.id)
-               /* draggable */
-           }
-
-           function drop(e) {
-               e.preventDefault()
-               d = e.dataTransfer.getData('Text')
-               e.target.appendChild(document.getElementById(d))
-           }
-       </script>
-       <style>
-         .widthAndHeight {
-           width:300;
-           height:70;
-         }
-       </style>
-     </head>
-     <body>
-         <img draggable='true' id='imDraggable' src='image.png' ondragstart='drag(event)' width='300' height='70' />
-         <div ondrop='drop(event)' ondragover='allowDrop(event)' id='dropzone'></div>
-     </body>
-   </html>
-
-   ```
-
-2. Online Servies: A few online services are either required (like github) or extremely helpful to have (for saving code snippets to send back and forth):
-
-   1. [Github](https://github.com/): Github is a gargantuan website that hosts code for coders all over the world! They're also kind enough to host free static websites for us too! We'll be using github to host our static webistes!
-   2. [Codepen.io](https://codepen.io/): Codepen is a site that lets us host little snippets of code that you can interact with! By creating your own account, you'll be able to follow our account and create your own pens (primarily for homework).
-   3. [Slack](https://slack.com/): Slack is a webapp (and a downloadable app) that allows for us to converse quickly and easily (and to share code quickly). You should have received an email to join our slack, but if not, please let us know!
+- [Slack](https://slack.com/)
+  - Slack is a web-app (and a downloadable app) that allows for us to converse quickly and easily (and to share code quickly). You should have received an email to join our slack, but if not, please let us know!
+  - Students can use Slack to ask instructors questions outside of class. Feel free to post a message in the [**#introweb**](https://bdpastl.slack.com/archives/C012DUTGPJL) slack channel.
 
 Now, onto the fun stuff:
 
@@ -98,8 +64,6 @@ You may have noticed that at the beginning of our HTML code, we have:
 ```
 
 `<!doctype html>` is not an element! It is something for our web browser to read to know that we're rendering an HTML page!
-
-
 
 ##Elements:
 
