@@ -19,7 +19,7 @@ In this class we'll be learning about HTML, CSS, Javascript, Jquery, PHP and MyS
 Now, onto the fun stuff:
 
 
-## What is the Web?
+## Getting Started - What is the Web?
 
 ### The Internet
 
@@ -53,7 +53,7 @@ Web development is the process of desinging and creating a Website for the inter
 
 
 
-## HTML:
+## HTML - Structuring Websites:
 
 HTML stands for Hyper Text Markup Language! When you think of coding, you probably don't think of HTML in the same way you think of a more complex language like javascript. Markup languages are langauges that help us render documents! HTML helps us render documents with elements and attributes (and a whole lot more).  Our web browsers download the HTML code, and render the code on our own computers! We'll be going from the very basics of HTML all the way to the newest version: HTML 5 in the coming couple weeks!
 
