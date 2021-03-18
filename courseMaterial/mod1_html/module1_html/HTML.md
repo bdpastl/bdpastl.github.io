@@ -385,7 +385,7 @@ You can also link to other portions of your page (but since our pages aren't big
     </div>
 
     <div>
-      On a completely different spot on the same page, I can we can create a navigation href by saying <a href='#comeToMe'>click here to go to the other spot!</a>
+      On a completely different spot on the same page, we can create a navigation href by saying <a href='#comeToMe'>click here to go to the other spot!</a>
     </div>
 
   </body>
