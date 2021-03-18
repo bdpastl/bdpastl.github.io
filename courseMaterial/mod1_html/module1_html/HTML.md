@@ -10,7 +10,7 @@ In this class we'll be learning about HTML, CSS, Javascript, Jquery, PHP and MyS
 
 - A [CodeHS](https://codehs.com/) Account.
   - If you haven't already, [**Please create an account here**](https://codehs.com/go/9854E). If you don't have a school-issued email address, you can use your personal email address.
-  - Enter **9854E** has the Class Code.
+  - Enter **9854E** as the Class Code.
 
 - [Slack](https://slack.com/)
   - Slack is a web-app (and a downloadable app) that allows for us to converse quickly and easily (and to share code quickly). You should have received an email to join our slack, but if not, please let us know!
