@@ -53,6 +53,10 @@ Web development is the process of desinging and creating a Website for the inter
 - [Twitter](https://twitter.com)
 - [Google](https://google.com)
 
+### How do we create Websites?
+
+With code! Specifically, websites are usually created with languages such as: [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS), and [Javascript](https://en.wikipedia.org/wiki/JavaScript). We will be spending most of our time learning HTML and CSS, as they are the most basic building blocks to build any website, and will provide a solid foundation to go on and build more complicated software systems.
+
 
 
 ## HTML - Structuring Websites:
