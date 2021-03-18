@@ -1,6 +1,6 @@
 # Welcome!
 
-In this class we'll be learning about HTML, CSS, Javascript, and Bootstrap! Over the course of the next few eeks, you'll go from making very simple, introductory websites, to eventually making your own content rich websites.  If we have time, we'll be able to eventually develop our own dynamic websites!
+In this class we'll be learning about HTML, CSS, Javascript, and Bootstrap! Over the course of the next few weeks, you'll go from making very simple, introductory websites, to eventually making your own content rich websites.  If we have time, we'll be able to eventually develop our own dynamic websites!
 
 [TOC]
 
@@ -27,7 +27,7 @@ Now, onto the fun stuff:
 
 The internet has revolutionized the way the world communicates, does business, and shares information.You can upload and download files from the internet. When you watch a movie on Netflix, you're on the internet! When you play a video game over XBox Live, you're on the internet! If you're reading this webpage, you're on the internet! Your parents might even use the internet to check their bank account and do work.
 
-Most people connect to the internet via their Internet Service Provider, also known as an "ISP". Your ISP could be a mobile tellecomuncation company - like Sprint or T-Mobile, a cable company - like Spectrum, or even a dial-up internet company, like AOL.
+Most people connect to the internet via their Internet Service Provider, also known as an "ISP". Your ISP could be a mobile telecommunication company - like Sprint or T-Mobile, a cable company - like Spectrum, or even a dial-up internet company, like AOL.
 
 ### Web Browsers
 
@@ -41,13 +41,13 @@ A web browser is an app which runs on your Computer or mobile device which allow
 
 ### Web Development
 
-Web development is the process of desinging and creating a Website for the internet. Websites can be simple pages with text, images, and links:
+Web development is the process of designing and creating a Website for the internet. Websites can be simple pages with text, images, and links:
 
 - [BDPA STL](https://bdpastl.github.io/)
 - [UK Government](https://www.gov.uk/)
 - [The First Website ever made!](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
- Website can also be conmplicated, dynamic pages where content is streamed, uploaded, and always changing:
+ Website can also be complicated, dynamic pages where content is streamed, uploaded, and always changing:
 
 - [Youtube](https://youtube.com)
 - [Twitter](https://twitter.com)
