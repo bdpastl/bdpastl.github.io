@@ -23,7 +23,9 @@ Now, onto the fun stuff:
 
 ### The Internet
 
-[The internet is a system of computer networks that are all connected](https://i.imgur.com/9Sqim7F.png). Originally used by the US Military and Academic Universities, the internet has changed the way the world shares news, information, and ideas. The internet allows your Computer, phone, iPad, etc, to connect to servers located all over the world. You can upload and download files from the internet. When you watch a movie on Netflix, you're on the internet! When you play a videogame over XBox Live, you're on the internet! If you're reading this webpage, you're on the internet!
+[The internet is a system of computer networks that are all connected](https://i.imgur.com/9Sqim7F.png). Originally used by the US Military and Academic Universities, the internet has changed the way the world shares news, information, and ideas. The internet allows your Computer, phone, iPad, etc, to connect to servers located all over the world. 
+
+The internet has revolutionized the way the world communicates, does business, and shares information.You can upload and download files from the internet. When you watch a movie on Netflix, you're on the internet! When you play a video game over XBox Live, you're on the internet! If you're reading this webpage, you're on the internet! Your parents might even use the internet to check their bank account and do work.
 
 Most people connect to the internet via their Internet Service Provider, also known as an "ISP". Your ISP could be a mobile tellecomuncation company - like Sprint or T-Mobile, a cable company - like Spectrum, or even a dial-up internet company, like AOL.
 
