@@ -117,6 +117,7 @@ Play with this code [here](https://codepen.io/bdpastl/pen/oVpRPK):
 <!doctype html>
 <html>
   <head>
+    <title>My Website </title>
   </head>
   <body>
     Hello World!
