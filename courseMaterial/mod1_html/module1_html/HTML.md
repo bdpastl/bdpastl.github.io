@@ -76,7 +76,7 @@ You may have noticed that at the beginning of our HTML code, we have:
 You can boil almost all of HTML down to elements (sometimes called tags) and attributes! Elements are any html code that we call with angled brackets:
 
 ```html
-<div> the word 'div' surrounded by angled brackets is a type of element! </div>
+<h1>the word 'h1' surrounded by angled brackets is a type of element!</h1>
 ```
 
 Elements have a very special syntax (i.e. they're written in a very special way):
