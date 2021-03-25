@@ -84,7 +84,7 @@ Elements have a very special syntax (i.e. they're written in a very special way)
 | All elements start with `<element-name>` | All elements end with ` </element-name>` |       Most elements have their own special functions!        |
 | :--------------------------------------: | :--------------------------------------: | :----------------------------------------------------------: |
 |                 `<html>`                 |                `</html>`                 |   **HTML** elements are where we put all of the HTML code    |
-|                 `<head>`                 |                `</head>`                 | This is where we put special 'header' elements, like page titles, styles, scripts, etc. The **head** is where the site's brains live |
+|                 `<head>`                 |                `</head>`                 | This is where we put special 'header' elements, like page titles, styles, scripts, and other metadata. The **head** is where the site's brains live |
 |                 `<body>`                 |                `</body>`                 | The **body** is where we put the content that renders on the page! |
 |                 `<div>`                  |                 `</div>`                 | This is a **div** element, which is kind of a catch-all block element (which we'll talk about more) |
 |                  `<p>`                   |                  `</p>`                  | **Paragraph** elements where a lot of people put their text content! |
