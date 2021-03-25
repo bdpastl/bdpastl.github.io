@@ -71,7 +71,7 @@ You may have noticed that at the beginning of our HTML code, we have:
 
 `<!doctype html>` is not an element! It is something for our web browser to read to know that we're rendering an HTML page!
 
-##Elements:
+### Elements:
 
 You can boil almost all of HTML down to elements (sometimes called tags) and attributes! Elements are any html code that we call with angled brackets:
 
@@ -128,9 +128,7 @@ While you're playing with the code, try placing text in the head!
 
 
 
-
-
-##Block Elements:
+### Block Elements:
 
 When we write HTML, we'll be using a lot of block elements. A **block element** is an element that takes up as much possible space as it can from left to right! There are a lot of ways to get around this, but for now, let's take a look:
 
@@ -152,10 +150,6 @@ When we write HTML, we'll be using a lot of block elements. A **block element** 
   </body>
 </html>
 ```
-
-
-
-
 
 
 
