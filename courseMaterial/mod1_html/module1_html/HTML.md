@@ -405,7 +405,7 @@ You can also link to other portions of the webpage you are currently on using th
 
 ### Images
 
-When you need to source a link (to either an image or to a new site), you need to use the src attribute! The `<img />` element needs attributes! Especially since there's no real text we want to have inside of our image. There are multiple ways to upload an image to your site, but for now, let's just grab a link. We need to place the link as a value for the source attribute, like below! [See the code in action!](https://codepen.io/bdpastl/pen/OqomzZ)
+When you want to include an image on your website, you'll need the ` <img />` tag. Just like the anchor tag, the image tag will need an `href` attribute that points to the image you want to display. Take note, the image tag is a self closing tag, as there is no need to render text inside of the image tag. There are multiple ways to upload an image to your site, but for now, let's just grab a link. We need to place the link as a value for the source attribute, like below! [See the code in action!](https://codepen.io/bdpastl/pen/OqomzZ)
 
 ```html
 <!doctype html>
@@ -420,21 +420,19 @@ When you need to source a link (to either an image or to a new site), you need t
 </html>
 ```
 
-Now the width of my old photo is pretty big… Photos often have differing sizes, so we often need to scale them ourselves! [Check it out:](https://codepen.io/bdpastl/pen/qvMmoq)
+
+
+Not all images are the same size. If you need to resize your image, you can scale it yourself! [Check it out:](https://codepen.io/bdpastl/pen/qvMmoq)
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1>
+  <body>
+    <h1>Check out this (tiny) dank meme</h1>
 		<hr />
    	<div>
-       Check out this beautiful image of my old pet, Rosie!
-        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' style='width:500; height:500' />
+        <img src='https://i.imgflip.com/536zfj.jpg' style='width:100px; height:140px' />
     </div>
-
   </body>
 </html>
 ```
