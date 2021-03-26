@@ -71,9 +71,9 @@ You may have noticed that at the beginning of our HTML code, we have:
 
 `<!doctype html>` is not an element! It is something for our web browser to read to know that we're rendering an HTML page!
 
-### Elements (aka Tags):
+### Structure of an HTML Page:
 
-You can boil almost all of HTML down to elements (sometimes called tags) and attributes! Elements are any html code that we call with angled brackets:
+You can boil almost all of HTML down to **elements** (sometimes called **tags**) and attributes! Elements are any html code that we call with angled brackets:
 
 ```html
 <h1>the word 'h1' surrounded by angled brackets is a type of element!</h1>
