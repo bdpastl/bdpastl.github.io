@@ -382,9 +382,7 @@ If you need to connect one webpage to the other, you can use a link (aka a **hyp
 
 
 
-You can also link to other portions of the webpage you are currently on using the anchor tag with an ID `<a href='#anchorID'></a>`.
-
-Our webpages aren't big enough yet for this to be suer useful, but it will be nice to know once we start writing much larger webpages:
+You can also link to other portions of the webpage you are currently on using the anchor tag with an ID `<a href='#anchorID'></a>`. Our webpages aren't big enough yet for this to be suer useful, but it will be nice to know once we start writing much larger webpages:
 
 ```html
 <!doctype html>
