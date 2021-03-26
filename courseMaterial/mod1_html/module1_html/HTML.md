@@ -364,43 +364,33 @@ We're getting pretty thick in the weeds for formatting, so this is it for the ti
 
 
 
-
-
-
-
 ### Links
 
-Anchor elements `<a>` can use an `href` to point to a link!  Why don't you [click on THIS link](https://codepen.io/bdpastl/pen/EMeWqq)!
+If you need to connect one webpage to the other, you can use a link (aka a **hyperlink**). When someone viewing a website clicks on a link, it can open a new webpage. Anchor elements `<a>` can use an `href` to point to a link!  Why don't you [click on THIS link](https://codepen.io/bdpastl/pen/EMeWqq)!
 
 ```html
 <!doctype html>
-<html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> The internet is a series of links! </h1>
-		<hr />
-   <div>
-         Sometimes you'll want to link to a new site, or a new page! <a href='https://bdpastl.github.io'>I am a link! Please click me</a>. By including links in your site, you can create a create a very dynamic experience!
+	<body>
+    <h1>The internet is a series of links!</h1>
+   	<hr />
+   	<div>
+      Sometimes you'll want to link to a new site, or a new page! <a href='https://bdpastl.github.io'>I am a link! Please click me</a>. By including links in your site, you can create a create a very dynamic experience!
     </div>
-
   </body>
 </html>
 ```
 
 
 
-You can also link to other portions of your page (but since our pages aren't big enough, we're not going to tackle this yet) by using the anchor tag with an ID:
+You can also link to other portions of the webpage you are currently on using the anchor tag with an ID `<a href='#anchorID'></a>`.
 
-
+Our webpages aren't big enough yet for this to be suer useful, but it will be nice to know once we start writing much larger webpages:
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> The internet is a series of links! </h1>
+  <body>
+    <h1>The internet is a series of links!</h1>
 		<hr />
    <div>
         Suppose I wanted to make sure somebody could navigate right to a spot on my page! I could then write an anchor with the attribute <a id='comeToMe'> to come directly to this spot</a>.
@@ -409,7 +399,6 @@ You can also link to other portions of your page (but since our pages aren't big
     <div>
       On a completely different spot on the same page, we can create a navigation href by saying <a href='#comeToMe'>click here to go to the other spot!</a>
     </div>
-
   </body>
 </html>
 ```
