@@ -109,18 +109,16 @@ And remember **ALWAYS CLOSE YOUR ELEMENTS**
 
 Now that you've seen all the elements, let's get a look at what an HTML page looks like! Below is the most basic html page you'll ever come across:
 
-
-
 Play with this code [here](https://codepen.io/bdpastl/pen/oVpRPK):
 
 ```html
 <!doctype html>
 <html>
   <head>
-    <title>My Website </title>
+    <title>My First Web Page</title>
   </head>
   <body>
-    Hello World!
+    <h1>Hello World!</h1>
   </body>
 </html>
 ```
