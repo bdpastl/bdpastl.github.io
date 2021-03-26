@@ -19,6 +19,7 @@ In this class we'll be learning about HTML, CSS, Javascript, and Bootstrap! Over
 Now, onto the fun stuff:
 
 
+
 ## Getting Started - What is the Web?
 
 ### The Internet
@@ -29,6 +30,8 @@ The internet has revolutionized the way the world communicates, does business, a
 
 Most people connect to the internet via their Internet Service Provider, also known as an "ISP". Your ISP could be a mobile telecommunication company - like Sprint or T-Mobile, a cable company - like Spectrum, or even a dial-up internet company, like AOL.
 
+
+
 ### Web Browsers
 
 A web browser is an app which runs on your Computer or mobile device which allows you to access websites on the internet. Some example web browsers are:
@@ -38,6 +41,8 @@ A web browser is an app which runs on your Computer or mobile device which allow
 - Safari
 - Internet Explorer
 - Edge
+
+
 
 ### Web Development
 
@@ -52,6 +57,8 @@ Web development is the process of designing and creating a Website for the inter
 - [Youtube](https://youtube.com)
 - [Twitter](https://twitter.com)
 - [Google](https://google.com)
+
+
 
 ### How do we create Websites?
 
@@ -71,6 +78,8 @@ You may have noticed that at the beginning of our HTML code, we have:
 
 `<!doctype html>` is not an element! It is something for our web browser to read to know that we're rendering an HTML page!
 
+
+
 ### Structure of an HTML Page:
 
 You can boil almost all of HTML down to **elements** (sometimes called **tags**) and attributes! Elements are any html code that we call with angled brackets:
@@ -78,6 +87,8 @@ You can boil almost all of HTML down to **elements** (sometimes called **tags**)
 ```html
 <h1>the word 'h1' surrounded by angled brackets is a type of element!</h1>
 ```
+
+
 
 Elements have a very special syntax (i.e. they're written in a very special way):
 
@@ -115,6 +126,8 @@ Some HTML tags don't require a closing tag. That's because we don't really need 
 |      `<hr />`       | Sometimes you want a break. **Horizontal rule** will create a nice little line on the page. |
 |      `<img />`      | The internet would be an extremely boring place without pictures! This **image** tag lets us place images on our page! |
 |     `<link />`      | You saw the anchor element up above, that's used a lot for internal links. The **link** element is often used for external links (like say if you wanted to send somebody to google!) |
+
+
 
 You can nest empty HTML elements inside of other HTML elements.
 
@@ -161,6 +174,8 @@ While you're playing with the code, try placing text in the head!
 
 So far, we've learned how to display plain text with HTML. Now, let's learn how we can better organize and style our code! When we format our HTML, we want it to ultimately look just like any other text that you'd make in MS Word.
 
+
+
 #### Paragraphs and Divs
 
 Keeping Content together is a big part of writing your site! Both paragraphs and divs are meant to be containers. Both `<p>` and `<div>`  put a space after themselves. Like paragraphs in books, we want to keep them separated. The only major difference between them is that people often use `<div>` as a catchall and write special classes for it in CSS, which we'll get to soon!
@@ -186,6 +201,8 @@ To see how these work, take a look  [at the *lorem ipsum* placeholder text](http
 </html>
   ```
 
+
+
 Did you notice that when the code was rendered, the second line of our `<div>` didn't actually show up as a second line? That's because no matter how many line breaks we enter on our keyboard, HTML will not render a line break. For that we need to add a `<br />`. [Check it out](https://codepen.io/bdpastl/pen/qvyXGb):
 
 ```html
@@ -208,6 +225,8 @@ Did you notice that when the code was rendered, the second line of our `<div>` d
 
 The `<br />` gives us a new line!
 
+
+
 #### Italic Lettering:
 
 To *emphasise* or *stress* words in your HTML, you can use italics!  `<i>` and `<em>` both look like italics, but `<i>` shows greater emphasis to a screen reader than does `<em>`. [Take a look at the code](https://codepen.io/bdpastl/pen/KEByzz):
@@ -223,6 +242,8 @@ To *emphasise* or *stress* words in your HTML, you can use italics!  `<i>` and `
 </html>
 ```
 
+
+
 #### Bold Lettering:
 
 To **boldly** letter something in our code, we need to use the `<strong>` or the `<b>` elements. They both look the exact same to us, but for screen readers for visually impaired people `<strong>` shows a little bit less emphasis. [Take a look and how this code renders:](https://codepen.io/bdpastl/pen/drjZPK)
@@ -237,6 +258,8 @@ To **boldly** letter something in our code, we need to use the `<strong>` or the
   </body>
 </html>
 ```
+
+
 
 #### Underlining
 
