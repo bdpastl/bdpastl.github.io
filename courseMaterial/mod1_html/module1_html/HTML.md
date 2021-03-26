@@ -188,7 +188,7 @@ To see how these work, take a look  [at the *lorem ipsum* placeholder text](http
   <body>
     <div>
       I'm inside of a div tag.
-      
+
       I'm also inside of the div tag.
     </div>
     <p>
@@ -263,7 +263,7 @@ To **boldly** letter something in our code, we need to use the `<strong>` or the
 
 #### Underlining
 
-Sometimes bold and italics don't get the point across as much as we'd want, <u>that's when we'd want to start underlining our text!</u> To do this, we use the `<u>` element. This Underlines all text betwen the `<u>` <u>and</u> `</u>`. [Check out how underlining works](https://codepen.io/bdpastl/pen/GeBOrL):
+Sometimes bold and italics don't get the point across as much as we'd want, <u>that's when we'd want to start underlining our text!</u> To do this, we use the `<u>` element. This Underlines all text between the `<u>` <u>and</u> `</u>`. [Check out how underlining works](https://codepen.io/bdpastl/pen/GeBOrL):
 
 ```html
 <!doctype html>
@@ -307,7 +307,7 @@ Headers get consecutively smaller as the numbers go! Be sure not to go too small
 
 #### Horizontal Lines
 
-Somtimes you might need to visually differentiate parts of your websites. One way to do this is with the `<hr />` tag. Notice that it does not have a closing tag, that is because nothing goes inside of it! 
+Sometimes you might need to visually differentiate parts of your websites. One way to do this is with the `<hr />` tag. Notice that it does not have a closing tag, that is because nothing goes inside of it!
 
 ```html
 <!doctype html>
@@ -343,7 +343,7 @@ Suppose you wanted to properly format some math on your site? You can do that wi
 
 #### Code and Preformat
 
-We're getting pretty thick in the weeds for formatting, so this is it for the time being. The last two we have are for when we want to display 'code' or 'preformatted' text! **Code** `<code>` will render our font to look more like a monspaced text (programmers love this!), and **preformat** `<pre>` will render our text with the spaces and new lines EXACTLY as we left them! The main difference is that `<pre>` is a block element that makes its own section, while `<code>` is an inline element, like all of the previous formatters. [Check out how it renders](https://codepen.io/bdpastl/pen/OqwOZP?editors=1000):
+We're getting pretty thick in the weeds for formatting, so this is it for the time being. The last two we have are for when we want to display 'code' or 'preformatted' text! **Code** `<code>` will render our font to look more like a monospaced text (programmers love this!), and **preformat** `<pre>` will render our text with the spaces and new lines EXACTLY as we left them! The main difference is that `<pre>` is a block element that makes its own section, while `<code>` is an inline element, like all of the previous formatters. [Check out how it renders](https://codepen.io/bdpastl/pen/OqwOZP?editors=1000):
 
 ```html
 <!doctype html>
