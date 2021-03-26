@@ -92,7 +92,22 @@ Elements have a very special syntax (i.e. they're written in a very special way)
 
 
 
-You've already seen that some elements don't follow the rules, that's because we don't really need to put text between the opening and closing tags:
+If your HTML element has both an opening and closing tag, you can nest other tags inside! It's a good idea to **indent** to show the nested structure of the tags.
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <p>
+      I'm text that nested inside other HTML tags!
+    </p>
+  </body>
+</html>
+```
+
+
+
+Some HTML tags don't require a closing tag. That's because we don't really need to put text between the opening and closing tags:
 
 | Empty HTML Elements |      Empty HTML Elements Have Their Functionality Too!       |
 | :-----------------: | :----------------------------------------------------------: |
