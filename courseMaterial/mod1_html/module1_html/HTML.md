@@ -401,8 +401,6 @@ You can also link to other portions of the webpage you are currently on using th
 </html>
 ```
 
-It's good to know that we can do this. Once our sites are large enough, we'll be able to navigate internally!
-
 
 
 ### Images
