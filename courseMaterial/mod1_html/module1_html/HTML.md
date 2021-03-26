@@ -410,16 +410,12 @@ When you need to source a link (to either an image or to a new site), you need t
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1>
+  <body>
+    <h1>Check out this dank meme</h1>
 		<hr />
    	<div>
-       Check out this beautiful image of my old pet, Rosie!
-        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' />
+        <img src='https://i.imgflip.com/536zfj.jpg' />
     </div>
-
   </body>
 </html>
 ```
