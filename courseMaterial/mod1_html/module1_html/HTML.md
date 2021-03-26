@@ -61,7 +61,7 @@ With code! Specifically, websites are usually created with languages such as: [H
 
 ## HTML - Structuring Websites:
 
-HTML (Hyper Text Markup Language) is the primary way of creating static webpages. When you think of coding, you probably don't think of HTML in the same way you think of a more complex language like javascript. Markup languages are langauges that help us render documents! HTML helps us render documents with elements and attributes (and a whole lot more).  Our web browsers download the HTML code, and render the code on our own computers! We'll be going from the very basics of HTML all the way to the newest version: HTML 5 in the coming couple weeks!
+HTML (Hyper Text Markup Language) is the primary way of creating static webpages. When you think of coding, you probably don't think of HTML in the same way you think of a more complex language like javascript. Markup languages are languages that help us render documents! HTML helps us render documents with elements and attributes (and a whole lot more).  Our web browsers download the HTML code, and render the code on our own computers! We'll be going from the very basics of HTML all the way to the newest version: HTML 5 in the coming couple weeks!
 
 You may have noticed that at the beginning of our HTML code, we have:
 
