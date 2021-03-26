@@ -101,6 +101,21 @@ You've already seen that some elements don't follow the rules, that's because we
 |      `<img />`      | The internet would be an extremely boring place without pictures! This **image** tag lets us place images on our page! |
 |     `<link />`      | You saw the anchor element up above, that's used a lot for internal links. The **link** element is often used for external links (like say if you wanted to send somebody to google!) |
 
+You can nest empty HTML elements inside of other HTML elements.
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <p>
+      I'm above the Horizontal rule!
+      <hr />
+    	I'm below the Horizonal rule!
+    </p>
+  </body>
+</html>
+```
+
 
 
 These are just a small handful of the elements we'll be using throughout the coming weeks!
