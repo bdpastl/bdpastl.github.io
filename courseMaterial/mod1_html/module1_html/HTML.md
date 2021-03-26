@@ -157,32 +157,11 @@ While you're playing with the code, try placing text in the head!
 
 
 
-### Block Elements:
+### Formatting Text
 
-When we write HTML, we'll be using a lot of block elements. A **block element** is an element that takes up as much possible space as it can from left to right! There are a lot of ways to get around this, but for now, let's take a look:
+So far, we've learned how to display plain text with HTML. Now, let's learn how we can better organize and style our code! When we format our HTML, we want it to ultimately look just like any other text that you'd make in MS Word.
 
-[Take a look here](https://codepen.io/bdpastl/pen/PLBKQm) to see how these take up the whole page (note: CSS on codepen for example purposes only):
-
-```html
-<!doctype html>
-<html>
-  <head>
-  </head>
-  <body>
-    <div>
-      I'm a div! I take up as much room as possible!
-    </div>
-    <p>
-      Me too! As a paragraph, I'm a pretty big deal.
-    </p>
-    <hr />
-  </body>
-</html>
-```
-
-
-
-### Paragraphs and Divs
+#### Paragraphs and Divs
 
 Keeping Content together is a big part of writing your site! Both paragraphs and divs are meant to be containers. Both `<p>` and `<div>`  put a space after themselves. Like paragraphs in books, we want to keep them separated. The only major difference between them is that people often use `<div>` as a catchall and write special classes for it in CSS, which we'll get to soon!
 
@@ -191,18 +170,18 @@ To see how these work, take a look  [at the *lorem ipsum* placeholder text](http
   ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <div>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 			incididunt ut labore et dolore magna aliqua.
-
-
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      I'm inside of a div tag.
+      
+      I'm also inside of the div tag.
     </div>
     <p>
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    <hr />
+			I'm inside of a paragraph tag.
+    </p>
+    <p>
+      I'm inside of another paragraph tag.
+    </p>
   </body>
 </html>
   ```
@@ -212,61 +191,30 @@ Did you notice that when the code was rendered, the second line of our `<div>` d
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
-    <div>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 			incididunt ut labore et dolore magna aliqua.
+     <div>
+      I'm inside of a div tag.
       <br />
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      I'm also inside of the div tag.
     </div>
     <p>
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    <hr />
+			I'm inside of a paragraph tag.
+      <br />
+      I'm inside of the same paragraph tag.
+    </p>
   </body>
 </html>
 ```
 
 The `<br />` gives us a new line!
 
-Now that you've seen *lorem ipsum* it won't look so weird once you come across it again. It's really just placeholder text.
-
-
-
-#### Text Formatting
-
-Now that you know how to write the most common tags in HTML, you should probably get comfortable with using special tags that aren't block elements in order to format our text! When we format our HTML, we want it to ultimately look just like any other text that you'd make in MS Word, but the downside is that we can't just highlight out text and press `ctrl` + `c`.
-
-
-
-##### Bold Lettering:
-
-To **boldly** letter something in our code, we need to use the `<strong>` or the `<b>` elements. They both look the exact same to us, but for screen readers for visually impaired people `<strong>` shows a little bit less emphasis. [Take a look and how this code renders:](https://codepen.io/bdpastl/pen/drjZPK)
-
-```html
-<!doctype html>
-<html>
-  <head>
-  </head>
-  <body>
-    <div>
-			Sometimes when you want some text to be bolder than other text, you can use the <b>bold</b> or <strong>strong</strong> tags!
-    </div>
-  </body>
-</html>
-```
-
-
-
 #### Italic Lettering:
 
-Just like using bold and strong on words looks the same, but actually acts different, *the same thing goes for italics!* `<i>` and `<em>` both look like italics, but `<i>` shows greater emphasis to a screen reader than does `<em>`. [Take a look at the code](https://codepen.io/bdpastl/pen/KEByzz):
+To *emphasise* or *stress* words in your HTML, you can use italics!  `<i>` and `<em>` both look like italics, but `<i>` shows greater emphasis to a screen reader than does `<em>`. [Take a look at the code](https://codepen.io/bdpastl/pen/KEByzz):
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <div>
       I make some pretty bad jokes sometimes, so I need to <i>italicize</i> and <em>emphasize</em> my words a lot so people know I'm telling a joke!!
@@ -275,7 +223,20 @@ Just like using bold and strong on words looks the same, but actually acts diffe
 </html>
 ```
 
+#### Bold Lettering:
 
+To **boldly** letter something in our code, we need to use the `<strong>` or the `<b>` elements. They both look the exact same to us, but for screen readers for visually impaired people `<strong>` shows a little bit less emphasis. [Take a look and how this code renders:](https://codepen.io/bdpastl/pen/drjZPK)
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <div>
+			Sometimes when you want some text to be bolder than other text, you can use the <b>bold</b> or <strong>strong</strong> tags!
+    </div>
+  </body>
+</html>
+```
 
 #### Underlining
 
@@ -284,13 +245,55 @@ Sometimes bold and italics don't get the point across as much as we'd want, <u>t
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <div>
       <u>I FEEL EXTREMELY IMPORTANT</u>!!
 
       <div> Also, you <b>might</b> think we're crazy but you can <b><i><u>ADD ALL THREE TOGETHER</u></i></b></div>
+    </div>
+  </body>
+</html>
+```
+
+
+
+### Headers
+
+Paragraphs and divs are great and all, but how should we title them? Luckily, we can do that with our header elements! Headers range in size from `<h1>` to `<h6>`. H1 headers are the biggest, and H6 headers are the smallest. [Take a gander](https://codepen.io/bdpastl/pen/pYZWvY):
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> H1. Welcome to my site! </h1>
+    <h2> H2. This is where I can introduce you to myself </h2>
+    <h3> H3. I really like to write code </h3>
+    <h4> H4. I also really like to take pictures of bugs </h4>
+    <h5> H5. It would be super neat if I could make a photo blog for all of my bug pictures </h5>
+    <h6> H6. Maybe once we learn how to include images into our site we can start posting bug pictures? </h6>
+    <div>
+       I'm normal sized text, by the way. Just for reference.
+    </div>
+  </body>
+</html>
+```
+
+Headers get consecutively smaller as the numbers go! Be sure not to go too small, or you might end up with a header smaller than your actual text!
+
+
+
+#### Horizontal Lines
+
+Somtimes you might need to visually differentiate parts of your websites. One way to do this is with the `<hr />` tag. Notice that it does not have a closing tag, that is because nothing goes inside of it! 
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <div>
+      I'm above the line!
+      <hr />
+      I'm below the line!
     </div>
   </body>
 </html>
@@ -305,8 +308,6 @@ Suppose you wanted to properly format some math on your site? You can do that wi
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <div> MATH IS NEAT! </div>
     <div> E = MC<sup>2</sup></div>
@@ -319,7 +320,7 @@ Suppose you wanted to properly format some math on your site? You can do that wi
 
 #### Code and Preformat
 
-We're getting pretty thick in the weeds for formatting, so this is it for the time being. The last two we have are for when we want to display 'code' or 'preformatted' text! **Code** `<code>` will render our font to look more like a monspaced text, and **preformat** `<pre>` will render our text with the spaces and new lines EXACTLY as we left them! The main difference is that `<pre>` is a block element that makes its own section, while `<code>` is an inline element, like all of the previous formatters. [Check out how it renders](https://codepen.io/bdpastl/pen/OqwOZP?editors=1000):
+We're getting pretty thick in the weeds for formatting, so this is it for the time being. The last two we have are for when we want to display 'code' or 'preformatted' text! **Code** `<code>` will render our font to look more like a monspaced text (programmers love this!), and **preformat** `<pre>` will render our text with the spaces and new lines EXACTLY as we left them! The main difference is that `<pre>` is a block element that makes its own section, while `<code>` is an inline element, like all of the previous formatters. [Check out how it renders](https://codepen.io/bdpastl/pen/OqwOZP?editors=1000):
 
 ```html
 <!doctype html>
@@ -341,31 +342,6 @@ We're getting pretty thick in the weeds for formatting, so this is it for the ti
 
 
 
-
-### Headers
-
-Paragraphs and divs are great and all, but how should we title them? Luckily, we can do that with our header elements! Headers range in size from `<h1>` to `<h6>`. Our H1 headers are the biggest. [Take a gander](https://codepen.io/bdpastl/pen/pYZWvY):
-
-```html
-<!doctype html>
-<html>
-  <head>
-  </head>
-  <body>
-    <h1> H1. Welcome to my site! </h1>
-    <h2> H2. This is where I can introduce you to myself </h2>
-    <h3> H3. I really like to write code </h3>
-    <h4> H4. I also really like to take pictures of bugs </h4>
-    <h5> H5. It would be super neat if I could make a photo blog for all of my bug pictures </h5>
-    <h6> H6. Maybe once we learn how to include images into our site we can start posting bug pictures? </h6>
-    <div>
-       I'm normal sized text, by the way. Just for reference.
-    </div>
-  </body>
-</html>
-```
-
-Headers get consecutively smaller as the numbers go! Be sure not to go too small, or you might end up with a header smaller than your actual text!
 
 
 
