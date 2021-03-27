@@ -1,5 +1,3 @@
-
-
 # JAVASCRIPT
 
 Javascript is one of the most popular programming languages today. It can be used for making scripts, interactive web applications, and web APIs. It can even be used to make games. The largest benefit of the language is its ability to run in web browsers. This course will be highly tailored to that aspect of the language, however, we will first need to start with the basics.
