@@ -19,15 +19,18 @@ In this class we'll be learning about HTML, CSS, Javascript, and Bootstrap! Over
 Now, onto the fun stuff:
 
 
+
 ## Getting Started - What is the Web?
 
 ### The Internet
 
-[The internet is a system of computer networks that are all connected](https://i.imgur.com/9Sqim7F.png). Originally used by the US Military and Academic Universities, the internet has changed the way the world shares news, information, and ideas. The internet allows your Computer, phone, iPad, etc, to connect to servers located all over the world. 
+[The internet is a system of computer networks that are all connected](https://i.imgur.com/9Sqim7F.png). Originally used by the US Military and Academic Universities, the internet has changed the way the world shares news, information, and ideas. The internet allows your Computer, phone, iPad, etc, to connect to servers located all over the world.
 
 The internet has revolutionized the way the world communicates, does business, and shares information.You can upload and download files from the internet. When you watch a movie on Netflix, you're on the internet! When you play a video game over XBox Live, you're on the internet! If you're reading this webpage, you're on the internet! Your parents might even use the internet to check their bank account and do work.
 
 Most people connect to the internet via their Internet Service Provider, also known as an "ISP". Your ISP could be a mobile telecommunication company - like Sprint or T-Mobile, a cable company - like Spectrum, or even a dial-up internet company, like AOL.
+
+
 
 ### Web Browsers
 
@@ -38,6 +41,8 @@ A web browser is an app which runs on your Computer or mobile device which allow
 - Safari
 - Internet Explorer
 - Edge
+
+
 
 ### Web Development
 
@@ -53,6 +58,8 @@ Web development is the process of designing and creating a Website for the inter
 - [Twitter](https://twitter.com)
 - [Google](https://google.com)
 
+
+
 ### How do we create Websites?
 
 With code! Specifically, websites are usually created with languages such as: [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS), and [Javascript](https://en.wikipedia.org/wiki/JavaScript). We will be spending most of our time learning HTML and CSS, as they are the most basic building blocks to build any website, and will provide a solid foundation to go on and build more complicated software systems.
@@ -61,7 +68,7 @@ With code! Specifically, websites are usually created with languages such as: [H
 
 ## HTML - Structuring Websites:
 
-HTML stands for Hyper Text Markup Language! When you think of coding, you probably don't think of HTML in the same way you think of a more complex language like javascript. Markup languages are langauges that help us render documents! HTML helps us render documents with elements and attributes (and a whole lot more).  Our web browsers download the HTML code, and render the code on our own computers! We'll be going from the very basics of HTML all the way to the newest version: HTML 5 in the coming couple weeks!
+HTML (Hyper Text Markup Language) is the primary way of creating static webpages. When you think of coding, you probably don't think of HTML in the same way you think of a more complex language like javascript. Markup languages are languages that help us render documents! HTML helps us render documents with elements and attributes (and a whole lot more).  Our web browsers download the HTML code, and render the code on our own computers! We'll be going from the very basics of HTML all the way to the newest version: HTML 5 in the coming couple weeks!
 
 You may have noticed that at the beginning of our HTML code, we have:
 
@@ -71,28 +78,47 @@ You may have noticed that at the beginning of our HTML code, we have:
 
 `<!doctype html>` is not an element! It is something for our web browser to read to know that we're rendering an HTML page!
 
-##Elements:
 
-You can boil almost all of HTML down to elements (sometimes called tags) and attributes! Elements are any html code that we call with angled brackets:
+
+### Structure of an HTML Page:
+
+You can boil almost all of HTML down to **elements** (sometimes called **tags**) and attributes! Elements are any html code that we call with angled brackets:
 
 ```html
-<div> the word 'div' surrounded by angled brackets is a type of element! </div>
+<h1>the word 'h1' surrounded by angled brackets is a type of element!</h1>
 ```
+
+
 
 Elements have a very special syntax (i.e. they're written in a very special way):
 
 | All elements start with `<element-name>` | All elements end with ` </element-name>` |       Most elements have their own special functions!        |
 | :--------------------------------------: | :--------------------------------------: | :----------------------------------------------------------: |
 |                 `<html>`                 |                `</html>`                 |   **HTML** elements are where we put all of the HTML code    |
-|                 `<head>`                 |                `</head>`                 | This is where we put special 'header' elements, like page titles, styles, scripts, etc. The **head** is where the site's brains live |
+|                 `<head>`                 |                `</head>`                 | This is where we put special 'header' elements, like page titles, styles, scripts, and other metadata. The **head** is where the site's brains live |
 |                 `<body>`                 |                `</body>`                 | The **body** is where we put the content that renders on the page! |
-|                 `<div>`                  |                 `<div>`                  | This is a **div** element, which is kind of a catch-all block element (which we'll talk about more) |
+|                 `<div>`                  |                 `</div>`                 | This is a **div** element, which is kind of a catch-all block element (which we'll talk about more) |
 |                  `<p>`                   |                  `</p>`                  | **Paragraph** elements where a lot of people put their text content! |
 |                  `<a>`                   |                  `</a>`                  | **Anchor** elements are where we place our links (both internal and external)! |
 
 
 
-You've already seen that some elements don't follow the rules, that's because we don't really need to put text between the opening and closing tags:
+If your HTML element has both an opening and closing tag, you can nest other tags inside! It's a good idea to **indent** to show the nested structure of the tags.
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <p>
+      I'm text that nested inside other HTML tags!
+    </p>
+  </body>
+</html>
+```
+
+
+
+Some HTML tags don't require a closing tag. That's because we don't really need to put text between the opening and closing tags:
 
 | Empty HTML Elements |      Empty HTML Elements Have Their Functionality Too!       |
 | :-----------------: | :----------------------------------------------------------: |
@@ -103,13 +129,28 @@ You've already seen that some elements don't follow the rules, that's because we
 
 
 
+You can nest empty HTML elements inside of other HTML elements.
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <p>
+      I'm above the Horizontal rule!
+      <hr />
+    	I'm below the Horizonal rule!
+    </p>
+  </body>
+</html>
+```
+
+
+
 These are just a small handful of the elements we'll be using throughout the coming weeks!
 
 And remember **ALWAYS CLOSE YOUR ELEMENTS**
 
 Now that you've seen all the elements, let's get a look at what an HTML page looks like! Below is the most basic html page you'll ever come across:
-
-
 
 Play with this code [here](https://codepen.io/bdpastl/pen/oVpRPK):
 
@@ -117,9 +158,10 @@ Play with this code [here](https://codepen.io/bdpastl/pen/oVpRPK):
 <!doctype html>
 <html>
   <head>
+    <title>My First Web Page</title>
   </head>
   <body>
-    Hello World!
+    <h1>Hello World!</h1>
   </body>
 </html>
 ```
@@ -128,38 +170,13 @@ While you're playing with the code, try placing text in the head!
 
 
 
+### Formatting Text
 
-
-##Block Elements:
-
-When we write HTML, we'll be using a lot of block elements. A **block element** is an element that takes up as much possible space as it can from left to right! There are a lot of ways to get around this, but for now, let's take a look:
-
-[Take a look here](https://codepen.io/bdpastl/pen/PLBKQm) to see how these take up the whole page (note: CSS on codepen for example purposes only):
-
-```html
-<!doctype html>
-<html>
-  <head>
-  </head>
-  <body>
-    <div>
-      I'm a div! I take up as much room as possible!
-    </div>
-    <p>
-      Me too! As a paragraph, I'm a pretty big deal.
-    </p>
-    <hr />
-  </body>
-</html>
-```
+So far, we've learned how to display plain text with HTML. Now, let's learn how we can better organize and style our code! When we format our HTML, we want it to ultimately look just like any other text that you'd make in MS Word.
 
 
 
-
-
-
-
-### Paragraphs and Divs
+#### Paragraphs and Divs
 
 Keeping Content together is a big part of writing your site! Both paragraphs and divs are meant to be containers. Both `<p>` and `<div>`  put a space after themselves. Like paragraphs in books, we want to keep them separated. The only major difference between them is that people often use `<div>` as a catchall and write special classes for it in CSS, which we'll get to soon!
 
@@ -168,82 +185,55 @@ To see how these work, take a look  [at the *lorem ipsum* placeholder text](http
   ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <div>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 			incididunt ut labore et dolore magna aliqua.
+      I'm inside of a div tag.
 
-
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      I'm also inside of the div tag.
     </div>
     <p>
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    <hr />
+			I'm inside of a paragraph tag.
+    </p>
+    <p>
+      I'm inside of another paragraph tag.
+    </p>
   </body>
 </html>
   ```
+
+
 
 Did you notice that when the code was rendered, the second line of our `<div>` didn't actually show up as a second line? That's because no matter how many line breaks we enter on our keyboard, HTML will not render a line break. For that we need to add a `<br />`. [Check it out](https://codepen.io/bdpastl/pen/qvyXGb):
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
-    <div>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 			incididunt ut labore et dolore magna aliqua.
+     <div>
+      I'm inside of a div tag.
       <br />
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      I'm also inside of the div tag.
     </div>
     <p>
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    <hr />
+			I'm inside of a paragraph tag.
+      <br />
+      I'm inside of the same paragraph tag.
+    </p>
   </body>
 </html>
 ```
 
 The `<br />` gives us a new line!
 
-Now that you've seen *lorem ipsum* it won't look so weird once you come across it again. It's really just placeholder text.
-
-
-
-#### Text Formatting
-
-Now that you know how to write the most common tags in HTML, you should probably get comfortable with using special tags that aren't block elements in order to format our text! When we format our HTML, we want it to ultimately look just like any other text that you'd make in MS Word, but the downside is that we can't just highlight out text and press `ctrl` + `c`.
-
-
-
-##### Bold Lettering:
-
-To **boldly** letter something in our code, we need to use the `<strong>` or the `<b>` elements. They both look the exact same to us, but for screen readers for visually impaired people `<strong>` shows a little bit less emphasis. [Take a look and how this code renders:](https://codepen.io/bdpastl/pen/drjZPK)
-
-```html
-<!doctype html>
-<html>
-  <head>
-  </head>
-  <body>
-    <div>
-			Sometimes when you want some text to be bolder than other text, you can use the <b>bold</b> or <strong>strong</strong> tags!
-    </div>
-  </body>
-</html>
-```
-
 
 
 #### Italic Lettering:
 
-Just like using bold and strong on words looks the same, but actually acts different, *the same thing goes for italics!* `<i>` and `<em>` both look like italics, but `<i>` shows greater emphasis to a screen reader than does `<em>`. [Take a look at the code](https://codepen.io/bdpastl/pen/KEByzz):
+To *emphasise* or *stress* words in your HTML, you can use italics!  `<i>` and `<em>` both look like italics, but `<i>` shows greater emphasis to a screen reader than does `<em>`. [Take a look at the code](https://codepen.io/bdpastl/pen/KEByzz):
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <div>
       I make some pretty bad jokes sometimes, so I need to <i>italicize</i> and <em>emphasize</em> my words a lot so people know I'm telling a joke!!
@@ -254,20 +244,79 @@ Just like using bold and strong on words looks the same, but actually acts diffe
 
 
 
-#### Underlining
+#### Bold Lettering:
 
-Sometimes bold and italics don't get the point across as much as we'd want, <u>that's when we'd want to start underlining our text!</u> To do this, we use the `<u>` element. This Underlines all text betwen the `<u>` <u>and</u> `</u>`. [Check out how underlining works](https://codepen.io/bdpastl/pen/GeBOrL):
+To **boldly** letter something in our code, we need to use the `<strong>` or the `<b>` elements. They both look the exact same to us, but for screen readers for visually impaired people `<strong>` shows a little bit less emphasis. [Take a look and how this code renders:](https://codepen.io/bdpastl/pen/drjZPK)
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
+  <body>
+    <div>
+			Sometimes when you want some text to be bolder than other text, you can use the <b>bold</b> or <strong>strong</strong> tags!
+    </div>
+  </body>
+</html>
+```
+
+
+
+#### Underlining
+
+Sometimes bold and italics don't get the point across as much as we'd want, <u>that's when we'd want to start underlining our text!</u> To do this, we use the `<u>` element. This Underlines all text between the `<u>` <u>and</u> `</u>`. [Check out how underlining works](https://codepen.io/bdpastl/pen/GeBOrL):
+
+```html
+<!doctype html>
+<html>
   <body>
     <div>
       <u>I FEEL EXTREMELY IMPORTANT</u>!!
 
       <div> Also, you <b>might</b> think we're crazy but you can <b><i><u>ADD ALL THREE TOGETHER</u></i></b></div>
+    </div>
+  </body>
+</html>
+```
+
+
+
+### Headers
+
+Paragraphs and divs are great and all, but how should we title them? Luckily, we can do that with our header elements! Headers range in size from `<h1>` to `<h6>`. H1 headers are the biggest, and H6 headers are the smallest. [Take a gander](https://codepen.io/bdpastl/pen/pYZWvY):
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> H1. Welcome to my site! </h1>
+    <h2> H2. This is where I can introduce you to myself </h2>
+    <h3> H3. I really like to write code </h3>
+    <h4> H4. I also really like to take pictures of bugs </h4>
+    <h5> H5. It would be super neat if I could make a photo blog for all of my bug pictures </h5>
+    <h6> H6. Maybe once we learn how to include images into our site we can start posting bug pictures? </h6>
+    <div>
+       I'm normal sized text, by the way. Just for reference.
+    </div>
+  </body>
+</html>
+```
+
+Headers get consecutively smaller as the numbers go! Be sure not to go too small, or you might end up with a header smaller than your actual text!
+
+
+
+#### Horizontal Lines
+
+Sometimes you might need to visually differentiate parts of your websites. One way to do this is with the `<hr />` tag. Notice that it does not have a closing tag, that is because nothing goes inside of it!
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <div>
+      I'm above the line!
+      <hr />
+      I'm below the line!
     </div>
   </body>
 </html>
@@ -282,8 +331,6 @@ Suppose you wanted to properly format some math on your site? You can do that wi
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <div> MATH IS NEAT! </div>
     <div> E = MC<sup>2</sup></div>
@@ -296,7 +343,7 @@ Suppose you wanted to properly format some math on your site? You can do that wi
 
 #### Code and Preformat
 
-We're getting pretty thick in the weeds for formatting, so this is it for the time being. The last two we have are for when we want to display 'code' or 'preformatted' text! **Code** `<code>` will render our font to look more like a monspaced text, and **preformat** `<pre>` will render our text with the spaces and new lines EXACTLY as we left them! The main difference is that `<pre>` is a block element that makes its own section, while `<code>` is an inline element, like all of the previous formatters. [Check out how it renders](https://codepen.io/bdpastl/pen/OqwOZP?editors=1000):
+We're getting pretty thick in the weeds for formatting, so this is it for the time being. The last two we have are for when we want to display 'code' or 'preformatted' text! **Code** `<code>` will render our font to look more like a monospaced text (programmers love this!), and **preformat** `<pre>` will render our text with the spaces and new lines EXACTLY as we left them! The main difference is that `<pre>` is a block element that makes its own section, while `<code>` is an inline element, like all of the previous formatters. [Check out how it renders](https://codepen.io/bdpastl/pen/OqwOZP?editors=1000):
 
 ```html
 <!doctype html>
@@ -317,68 +364,31 @@ We're getting pretty thick in the weeds for formatting, so this is it for the ti
 
 
 
-
-
-### Headers
-
-Paragraphs and divs are great and all, but how should we title them? Luckily, we can do that with our header elements! Headers range in size from `<h1>` to `<h6>`. Our H1 headers are the biggest. [Take a gander](https://codepen.io/bdpastl/pen/pYZWvY):
-
-```html
-<!doctype html>
-<html>
-  <head>
-  </head>
-  <body>
-    <h1> H1. Welcome to my site! </h1>
-    <h2> H2. This is where I can introduce you to myself </h2>
-    <h3> H3. I really like to write code </h3>
-    <h4> H4. I also really like to take pictures of bugs </h4>
-    <h5> H5. It would be super neat if I could make a photo blog for all of my bug pictures </h5>
-    <h6> H6. Maybe once we learn how to include images into our site we can start posting bug pictures? </h6>
-    <div>
-       I'm normal sized text, by the way. Just for reference.
-    </div>
-  </body>
-</html>
-```
-
-Headers get consecutively smaller as the numbers go! Be sure not to go too small, or you might end up with a header smaller than your actual text!
-
-
-
 ### Links
 
-Anchor elements `<a>` can use an `href` to point to a link!  Why don't you [click on THIS link](https://codepen.io/bdpastl/pen/EMeWqq)!
+If you need to connect one webpage to the other, you can use a link (aka a **hyperlink**). When someone viewing a website clicks on a link, it can open a new webpage. Anchor elements `<a>` can use an `href` to point to a link!  Why don't you [click on THIS link](https://codepen.io/bdpastl/pen/EMeWqq)!
 
 ```html
 <!doctype html>
-<html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> The internet is a series of links! </h1>
-		<hr />
-   <div>
-         Sometimes you'll want to link to a new site, or a new page! <a href='https://bdpastl.github.io'>I am a link! Please click me</a>. By including links in your site, you can create a create a very dynamic experience!
+	<body>
+    <h1>The internet is a series of links!</h1>
+   	<hr />
+   	<div>
+      Sometimes you'll want to link to a new site, or a new page! <a href='https://bdpastl.github.io'>I am a link! Please click me</a>. By including links in your site, you can create a create a very dynamic experience!
     </div>
-
   </body>
 </html>
 ```
 
 
 
-You can also link to other portions of your page (but since our pages aren't big enough, we're not going to tackle this yet) by using the anchor tag with an ID:
-
-
+You can also link to other portions of the webpage you are currently on using the anchor tag with an ID `<a href='#anchorID'></a>`. Our webpages aren't big enough yet for this to be suer useful, but it will be nice to know once we start writing much larger webpages:
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> The internet is a series of links! </h1>
+  <body>
+    <h1>The internet is a series of links!</h1>
 		<hr />
    <div>
         Suppose I wanted to make sure somebody could navigate right to a spot on my page! I could then write an anchor with the attribute <a id='comeToMe'> to come directly to this spot</a>.
@@ -387,51 +397,42 @@ You can also link to other portions of your page (but since our pages aren't big
     <div>
       On a completely different spot on the same page, we can create a navigation href by saying <a href='#comeToMe'>click here to go to the other spot!</a>
     </div>
-
   </body>
 </html>
 ```
-
-It's good to know that we can do this. Once our sites are large enough, we'll be able to navigate internally!
 
 
 
 ### Images
 
-When you need to source a link (to either an image or to a new site), you need to use the src attribute! The `<img />` element needs attributes! Especially since there's no real text we want to have inside of our image. There are multiple ways to upload an image to your site, but for now, let's just grab a link. We need to place the link as a value for the source attribute, like below! [See the code in action!](https://codepen.io/bdpastl/pen/OqomzZ)
+When you want to include an image on your website, you'll need the ` <img />` tag. Just like the anchor tag, the image tag will need an `href` attribute that points to the image you want to display. Take note, the image tag is a self closing tag, as there is no need to render text inside of the image tag. There are multiple ways to upload an image to your site, but for now, let's just grab a link. We need to place the link as a value for the source attribute, like below! [See the code in action!](https://codepen.io/bdpastl/pen/OqomzZ)
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1>
+  <body>
+    <h1>Check out this dank meme</h1>
 		<hr />
    	<div>
-       Check out this beautiful image of my old pet, Rosie!
-        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' />
+        <img src='https://i.imgflip.com/536zfj.jpg' />
     </div>
-
   </body>
 </html>
 ```
 
-Now the width of my old photo is pretty big… Photos often have differing sizes, so we often need to scale them ourselves! [Check it out:](https://codepen.io/bdpastl/pen/qvMmoq)
+
+
+Not all images are the same size. If you need to resize your image, you can scale it yourself! [Check it out:](https://codepen.io/bdpastl/pen/qvMmoq)
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1>
+  <body>
+    <h1>Check out this (tiny) dank meme</h1>
 		<hr />
    	<div>
-       Check out this beautiful image of my old pet, Rosie!
-        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' style='width:500; height:500' />
+        <img src='https://i.imgflip.com/536zfj.jpg' style='width:100px; height:140px' />
     </div>
-
   </body>
 </html>
 ```
