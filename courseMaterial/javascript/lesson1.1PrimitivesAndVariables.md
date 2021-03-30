@@ -149,3 +149,17 @@ The function `Number` can be used to convert values into the type `number`:
   Number(false); // evaluates to the number 0
   Number(true); // evaluates to the number 1
 ```
+
+## NaN
+In the previous section we saw that `Number("blob")` evaluates to `NaN`. This stands for `Not a Number`.
+
+#### isNaN
+The tricky thing about `NaN` is that `typeof NaN` will evaluate to `number` which is weird but I guess thats javascript for you 🤷‍♂️. On top of that `NaN === NaN` evaluates to false. So how are you supposed to know if something is NaN? The answer is a function by the name `isNaN`. See the example below:
+
+```javascript
+  let a = "Carl's Jr";
+  let b = Number(a);
+  let c = isNaN(b); // c will now be initialized to the value false
+```
+
+This function can be useful for determining whether or not a user has provided a number
