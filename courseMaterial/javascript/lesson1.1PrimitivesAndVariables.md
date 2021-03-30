@@ -66,7 +66,6 @@ let favoriteSong;
 
 > **NOTE**: You may have seen JS variables created with the keyword `var`. The keyword `var` is used in pre-ES6 JavaScript to create a variable. Although there is a key difference, you can think of `var` as simply being an alternative for `let` for the time being.
 
-<br >
 
 ### **Assignment Operator: `=`**
 
@@ -78,7 +77,6 @@ let age = 29;
 
 In this example, we are creating a _value_ (`29`) on the right and a _variable_ (`age`)on the left. The _assignment operator_ takes the value on the _right_ and assigns it to the variable on the _left_.
 
-<br >
 
 ### The `typeof` Operator
 
@@ -92,11 +90,9 @@ typeof false;
 
 The `typeof` operator returns the data type in a _string_ (i.e. "string", "number", "boolean")
 
-<br >
 
 > **TIP**: This can be handy when trying to debug your code. You can `log()` the `typeof` of some variable to make sure that the data type it references is what you expect.
 
-<br>
 
 ### **Dynamic Typing**
 
@@ -105,4 +101,51 @@ As a language, JavaScript is **dynamically typed** (or _loosely typed_) - we don
 
 Changing from string to number is completely fine in javascript! This can be extremely helpful, but it can also be very difficult if you're not paying attention (e.g. it would get really weird if you were calculating someone's bill on your site, and you tried to add 15 + 'Sweater').
 
+## Type Conversions
 
+### Strings
+
+Both `booleans` and `numbers` can be converted to a string using the `String()` function:
+
+```javascript
+  let boolVal = true;
+  let boolStr = String(boolVal); // boolStr now stores the value "true"
+
+  let numVal = 123;
+  let numStr = String(numVal); // boolStr now stores the value "123"
+```
+
+Additionally, variables of type `boolean` and `number` also have a method called `toString():
+
+```javascript
+  let boolVal = true;
+  let boolStr = boolVal.toString(); // boolStr now stores the value "true"
+
+  let numVal = 123;
+  let numStr = numVal.toString(); // boolStr now stores the value "123"
+```
+
+### Booleans
+
+The function `Boolean` can be used to convert values into the type `boolean`:
+
+```javascript
+  Boolean(""); // evaluates to false
+  Boolean("true"); // evaluates to true
+  Boolean("false"); // evaluates to true
+  Boolean(0); // evaluates to false
+  Boolean(1); // evaluates to true
+```
+
+### Numbers
+
+The function `Number` can be used to convert values into the type `number`:
+
+```javascript
+  Number("123"); // evaluates to the number 123
+  Number(""); // evaluates to the number 0
+  Number("0"); // evaluates to the number 0
+  Number("blob"); // evaluates to the number NaN
+  Number(false); // evaluates to the number 0
+  Number(true); // evaluates to the number 1
+```
