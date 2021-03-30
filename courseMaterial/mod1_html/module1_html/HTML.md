@@ -305,7 +305,7 @@ Headers get consecutively smaller as the numbers go! Be sure not to go too small
 
 
 
-#### Horizontal Lines
+### Horizontal Lines
 
 Sometimes you might need to visually differentiate parts of your websites. One way to do this is with the `<hr />` tag. Notice that it does not have a closing tag, that is because nothing goes inside of it!
 
@@ -324,7 +324,7 @@ Sometimes you might need to visually differentiate parts of your websites. One w
 
 
 
-#### Superscripts and Subscripts
+### Superscripts and Subscripts
 
 Suppose you wanted to properly format some math on your site? You can do that with superscripts `<sup>` and subscripts `<sub>`! [Look at that beautiful math](https://codepen.io/bdpastl/pen/VRBrMq?editors=1000):
 
@@ -341,7 +341,7 @@ Suppose you wanted to properly format some math on your site? You can do that wi
 
 
 
-#### Code and Preformat
+### Code and Preformat
 
 We're getting pretty thick in the weeds for formatting, so this is it for the time being. The last two we have are for when we want to display 'code' or 'preformatted' text! **Code** `<code>` will render our font to look more like a monospaced text (programmers love this!), and **preformat** `<pre>` will render our text with the spaces and new lines EXACTLY as we left them! The main difference is that `<pre>` is a block element that makes its own section, while `<code>` is an inline element, like all of the previous formatters. [Check out how it renders](https://codepen.io/bdpastl/pen/OqwOZP?editors=1000):
 
