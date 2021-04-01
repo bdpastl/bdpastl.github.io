@@ -445,7 +445,7 @@ So, we just listed all of those really cool things we want to do above! How woul
 
 #### Unordered Lists:
 
-Unordered Lists are bulleted lists. This is where we will introduce the concept of an **attribute** (don't worry, we'll go into a lot more detail later). Attributes let us futher customize our code!
+Unordered Lists are bulleted lists. This is where we will introduce the concept of an **attribute** (don't worry, we'll go into a lot more detail later). Attributes let us further customize our code!
 
 [Take a look at this default unordered list](https://codepen.io/bdpastl/pen/YgjrVr):
 
