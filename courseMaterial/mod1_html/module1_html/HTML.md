@@ -472,17 +472,15 @@ Check out [how these attributes change the list](https://codepen.io/bdpastl/pen/
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <h1> Welcome to my site! </h1>
     <hr />
-     <ul>
-       <li type='square'>I really like to write code</li>
-       <li type='square'>Does that make me a square?</li>
-       <li type='square'>Some people do call me a block head...</li>
-       <li type='square'>Maybe they're just not seeing me at the right ANGLE?</li>
-     </ul>
+    <ul>
+      <li type='square'>I really like to write code</li>
+      <li type='square'>Does that make me a square?</li>
+      <li type='square'>Some people do call me a block head...</li>
+      <li type='square'>Maybe they're just not seeing me at the right ANGLE?</li>
+    </ul>
   </body>
 </html>
 ```
@@ -497,12 +495,12 @@ We can do what we did above, but, that's a lot of work to write `type='square'` 
   <body>
     <h1> Welcome to my site! </h1>
     <hr />
-     <ul type='square'>
-       <li>I really like to write code</li>
-       <li>Does that make me a square?</li>
-       <li>Some people do call me a block head...</li>
-       <li>Maybe they're just not seeing me at the right ANGLE?</li>
-     </ul>
+    <ul type='square'>
+      <li>I really like to write code</li>
+      <li>Does that make me a square?</li>
+      <li>Some people do call me a block head...</li>
+      <li>Maybe they're just not seeing me at the right ANGLE?</li>
+    </ul>
   </body>
 </html>
 ```
