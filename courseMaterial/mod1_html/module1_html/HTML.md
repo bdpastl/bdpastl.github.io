@@ -452,17 +452,15 @@ Unordered Lists are bulleted lists. This is where we will introduce the concept 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <h1> Welcome to my site! </h1>
     <hr />
-     <ul>
-       <li>I really like to write code</li>
-       <li>I also really like to take pictures of bugs</li>
-       <li>It would be super neat if I could make a photo blog for all of my bug pictures !</li>
-       <li>Maybe once we learn how to include images into our site we can start posting bug pictures?</li>
-     </ul>
+    <ul>
+      <li>I really like to write code</li>
+      <li>I also really like to take pictures of bugs</li>
+      <li>It would be super neat if I could make a photo blog for all of my bug pictures !</li>
+      <li>Maybe once we learn how to include images into our site we can start posting bug pictures?</li>
+    </ul>
   </body>
 </html>
 ```
