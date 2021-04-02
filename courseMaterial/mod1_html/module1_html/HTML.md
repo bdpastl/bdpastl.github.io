@@ -615,7 +615,7 @@ You can also nest Ordered lists inside of Un-ordered lists. And vice-versa!
 
 
 
-#### Tables
+### Tables
 
 Sometimes we need to display data that doesn't quite fit in either an ordered list, or an un-ordered list. A Table is a very popular way to display a large amount of data. If you've ever used Microsoft Excel (or Google Sheets), the concept of a table should feel very familiar.
 
@@ -681,7 +681,7 @@ You may have noticed that that table did not have anything visibly dividing each
 
 ## Attributes
 
-​	This is a good a time as any to introduce attributes! So far we've only seen the `type` attribute, but from here on out, we'll be using attributes regularly! There are a ton of attributes. There is absolutely no need to memorize them all, but it is good to know the most used ones off the top of your head!
+This is a good a time as any to introduce attributes! So far we've only seen the `type` attribute, but from here on out, we'll be using attributes regularly! There are a ton of attributes. There is absolutely no need to memorize them all, but it is good to know the most used ones off the top of your head!
 
 ### Style
 
