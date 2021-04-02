@@ -485,13 +485,13 @@ Check out [how these attributes change the list](https://codepen.io/bdpastl/pen/
 </html>
 ```
 
+
+
 We can do what we did above, but, that's a lot of work to write `type='square'` on each single list item `<li>`. What we can do instead, is write it on top, at the unordered list `<ul>` level, and the `type='square'` will fall through down to the list items. Check out [how much easier that was to write](https://codepen.io/bdpastl/pen/drjVJV?editors=1100):
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <h1> Welcome to my site! </h1>
     <hr />
@@ -505,12 +505,35 @@ We can do what we did above, but, that's a lot of work to write `type='square'` 
 </html>
 ```
 
+
+
 The types we can use for unordered lists are:
 
 ```html
 <ul type='square'></ul>  <!-- blocks -->
 <ul type='disc'></ul>  <!-- bullets -->
 <ul type='circle'></ul> <!-- empty circles -->
+```
+
+
+
+If one list is not enough... you can make lists of lists! Just like the other HTML tags we've learned, you can nest one `<ul>` inside of another `<ul>`
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Welcome to my site! </h1>
+    <hr />
+    <ul>
+      <li>I'm a list item </li>
+      <ul>
+        <li>I'm a list item... within another list!</li>
+        <li>Me too</li>
+      </ul>
+    </ul>
+  </body>
+</html>
 ```
 
 
