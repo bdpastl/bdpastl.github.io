@@ -717,6 +717,7 @@ We can change the color of an attribute by giving it a value! We can change the 
        <li>I really like to write code</li>
        <li style='background-color:blue; color:white'>I especially like to make my page as colorful as possible!</li>
        <li > Too many colors might be rough on the eyes, though....</li>
+       <li style='color: rgb(0, 255, 0)'>Just kidding! Here's a nother color</li>
      </ul>
   </body>
 </html>
