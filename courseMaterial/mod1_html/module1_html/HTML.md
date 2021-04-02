@@ -687,6 +687,12 @@ This is a good a time as any to introduce attributes! So far we've only seen the
 
 By using the style attribute, we're allowing for what's called 'inline' styling. That means that we're styling a specific element within our code. This is good to know that we can do (and we will do it for now), but once we learn CSS styling, we won't be doing much inline styling!
 
+Generally, you can apply a style attribute like this 
+
+```html
+<tagname style="property:value;"></tagname>
+```
+
 ### Color
 
 We can change the color of an attribute by giving it a value! We can change the text color with just `color`, and  background color with `background-color`. Take a look and [see these busy colors](https://codepen.io/bdpastl/pen/QoBaKq?editors=1000)
@@ -694,8 +700,6 @@ We can change the color of an attribute by giving it a value! We can change the 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body style='background-color:lightblue'>
     <h1 style='color:red'> Welcome to my site! </h1>
 
@@ -720,8 +724,6 @@ We don't always want to have the same sizes of font in our paragraphs! We might 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body style='background-color:lightblue'>
     <h1> Welcome to my site! </h1>
 
