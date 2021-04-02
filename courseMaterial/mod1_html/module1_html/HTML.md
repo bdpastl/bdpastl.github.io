@@ -747,13 +747,13 @@ We don't always want to have the same sizes of font in our paragraphs! We might 
 </html>
 ```
 
-So, not only can we control exactly what our `font-size` is by way of using pixels, we can also use a percenage of what our font is (with reference to what it already was) with `%` and `em` (`em` is just equal to the current font size).
+So, not only can we control exactly what our `font-size` is by way of using pixels, we can also use a percentage of what our font is (with reference to what it already was) with `%` and `em` (`em` is just equal to the current font size).
 
 
 
 #### Borders
 
-A lot of time, we want to cordon off some content! We can easily do that with a border! Borders are a little weird though (and we'll explore borders more when we work with CSS). Borders have an intersesting syntax, when we call border, we need to call it with `border: 'size' 'type' 'color'`, like `border: 1px solid black` or `border: 1px dotted red`. [Check it out](https://codepen.io/bdpastl/pen/LaBeKN):
+A lot of time, we want to cordon off some content! We can easily do that with a border! Borders are a little weird though (and we'll explore borders more when we work with CSS). Borders have an interesting syntax, when we call border, we need to call it with `border: 'size' 'type' 'color'`, like `border: 1px solid black` or `border: 1px dotted red`. [Check it out](https://codepen.io/bdpastl/pen/LaBeKN):
 
 ```html
 <!doctype html>
