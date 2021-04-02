@@ -443,6 +443,8 @@ Not all images are the same size. If you need to resize your image, you can scal
 
 So, we just listed all of those really cool things we want to do above! How would we actually write a list of things we like on our about me pages? How about a list?
 
+
+
 #### Unordered Lists:
 
 Unordered Lists are bulleted lists. This is where we will introduce the concept of an **attribute** (don't worry, we'll go into a lot more detail later). Attributes let us further customize our code!
@@ -580,8 +582,6 @@ Just like unordered lists, we can use attributes to change [how we're listing th
 </html>
 ```
 
-
-
 Here are the types of ordered lists we can use!
 
 ```html
@@ -591,8 +591,6 @@ Here are the types of ordered lists we can use!
 <ol type='i'></ol> Lowercase roman numerals!
 <ol type='I'></ol> Uppercase roman numerals!
 ```
-
-
 
 You can also nest Ordered lists inside of Un-ordered lists. And vice-versa!
 
@@ -618,8 +616,6 @@ You can also nest Ordered lists inside of Un-ordered lists. And vice-versa!
 ### Tables
 
 Sometimes we need to display data that doesn't quite fit in either an ordered list, or an un-ordered list. A Table is a very popular way to display a large amount of data. If you've ever used Microsoft Excel (or Google Sheets), the concept of a table should feel very familiar.
-
-
 
 Tables (`<table>`) consist of **rows** (`<tr>`), **columns** (`<td>`), and optionally, **headers** (`<th>`).
 
@@ -650,8 +646,6 @@ Tables (`<table>`) consist of **rows** (`<tr>`), **columns** (`<td>`), and optio
 
 You may have noticed that that table did not have anything visibly dividing each row and column. If you want to add a border around each cell, apply the `border` attribute.
 
-
-
 ```html
 <!doctype html>
 <html>
@@ -677,8 +671,6 @@ You may have noticed that that table did not have anything visibly dividing each
 
 
 
-
-
 ## Attributes
 
 This is a good a time as any to introduce attributes! So far we've only seen the `type` attribute, but from here on out, we'll be using attributes regularly! There are a ton of attributes. There is absolutely no need to memorize them all, but it is good to know the most used ones off the top of your head!
@@ -692,8 +684,6 @@ Generally, you can apply a style attribute like this
 ```html
 <tagname style="property:value;"></tagname>
 ```
-
-
 
 If you need to apply multple style properties to the same tag, seperate each pair of `property:value` with a semicolon `;` 
 
@@ -776,9 +766,7 @@ Just link in Microsoft Word, we can tell our webpage _where_ to display text. So
 
 
 
-
-
-#### Borders
+### Borders
 
 A lot of time, we want to cordon off some content! We can easily do that with a border! Borders are a little weird though (and we'll explore borders more when we work with CSS). Borders have an interesting syntax, when we call border, we need to call it with `border: 'size' 'type' 'color'`, like `border: 1px solid black` or `border: 1px dotted red`. [Check it out](https://codepen.io/bdpastl/pen/LaBeKN):
 
@@ -797,9 +785,7 @@ A lot of time, we want to cordon off some content! We can easily do that with a 
 
 
 
-
-
-#### Padding and Margin
+### Padding and Margin
 
 Padding and Margins helps us add some space around our content! Padding makes the space inside the element bigger, while margin makes the area outside the element bigger! Take a look at the way that [margin and padding render:](https://codepen.io/bdpastl/pen/NJByKB)
 
@@ -821,8 +807,4 @@ You may have noticed that we didn't remove the borders! You can add as many styl
 
 
 
-
-
-
-
-So, now you've gotten a crash course in web development, try making your own website! Your homework after this week is to make your own site (and host it on your github.io page!). Take all the code elements from above and mix and match (and even try nesting)!
+So, now you've gotten a crash course in web development, try making your own website! Next week, we'll begin learning CSS.
