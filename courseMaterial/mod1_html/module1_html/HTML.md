@@ -594,7 +594,7 @@ Here are the types of ordered lists we can use!
 
 
 
-You can also nest Odered lists inside of Un-ordered lists. And vice-versa!
+You can also nest Ordered lists inside of Un-ordered lists. And vice-versa!
 
 ```html
 <!doctype html>
