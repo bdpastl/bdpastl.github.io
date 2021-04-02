@@ -545,20 +545,20 @@ Ordered lists are just like unordered lists, but, well, they're ordered! They're
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <h1> Welcome to my site for counting!! </h1>
     <hr />
-     <ol>
-       <li> I love counting! </li>
-       <li> Math is super neat!</li>
-       <li> Did you know that accountants count things for a living!? </li>
-       <li> Actuarily, we should account for all mathematically focused jobs!</li>
-     </ol>
+    <ol>
+      <li> I love counting! </li>
+      <li> Math is super neat!</li>
+      <li> Did you know that accountants count things for a living!? </li>
+      <li> Actuarily, we should account for all mathematically focused jobs!</li>
+    </ol>
   </body>
 </html>
 ```
+
+
 
 Just like unordered lists, we can use attributes to change [how we're listing things](https://codepen.io/bdpastl/pen/NJBaJZ):
 
@@ -570,15 +570,17 @@ Just like unordered lists, we can use attributes to change [how we're listing th
   <body>
     <h1> Welcome to my site for counting!! </h1>
     <hr />
-     <ol type='I'>
-       <li> love counting! </li>
-       <li> Roman numerals are super weird!</li>
-       <li> Did you know romans didn't have a number for zero?!? </li>
-       <li> In fact, the Greeks didn't either!! Weird huh??</li>
-     </ol>
+    <ol type='I'>
+      <li> love counting! </li>
+      <li> Roman numerals are super weird!</li>
+      <li> Did you know romans didn't have a number for zero?!? </li>
+      <li> In fact, the Greeks didn't either!! Weird huh??</li>
+    </ol>
   </body>
 </html>
 ```
+
+
 
 Here are the types of ordered lists we can use!
 
@@ -589,6 +591,29 @@ Here are the types of ordered lists we can use!
 <ol type='i'></ol> Lowercase roman numerals!
 <ol type='I'></ol> Uppercase roman numerals!
 ```
+
+
+
+You can also nest Odered lists inside of Un-ordered lists. And vice-versa!
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Welcome to my site! </h1>
+    <hr />
+    <ul>
+      <li>I'm a list item in an un-ordered list </li>
+      <ol>
+        <li>I'm first!</li>
+        <li>I'm second!</li>
+      </ol>
+    </ul>
+  </body>
+</html>
+```
+
+
 
 
 
