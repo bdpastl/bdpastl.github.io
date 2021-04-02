@@ -693,6 +693,16 @@ Generally, you can apply a style attribute like this
 <tagname style="property:value;"></tagname>
 ```
 
+
+
+If you need to apply multple style properties to the same tag, seperate each pair of `property:value` with a semicolon `;` 
+
+```html
+<tagname style="property1:value1; property2:value2;"></tagname>
+```
+
+
+
 ### Color
 
 We can change the color of an attribute by giving it a value! We can change the text color with just `color`, and  background color with `background-color`. Take a look and [see these busy colors](https://codepen.io/bdpastl/pen/QoBaKq?editors=1000)
@@ -702,7 +712,6 @@ We can change the color of an attribute by giving it a value! We can change the 
 <html>
   <body style='background-color:lightblue'>
     <h1 style='color:red'> Welcome to my site! </h1>
-
     <hr />
      <ul style='background-color:#FFAA00'>
        <li>I really like to write code</li>
