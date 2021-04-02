@@ -735,7 +735,6 @@ We don't always want to have the same sizes of font in our paragraphs! We might 
 <html>
   <body style='background-color:lightblue'>
     <h1> Welcome to my site! </h1>
-
     <hr />
      <ul>
        <li style='font-size:300%'>I really like to write code</li>
@@ -751,6 +750,33 @@ So, not only can we control exactly what our `font-size` is by way of using pixe
 
 
 
+### Text Alignment
+
+Just link in Microsoft Word, we can tell our webpage _where_ to display text. Sometimes we want it on the left side of the screen, sometimes we want it on the right side, and we can even align in right down the middle!
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Welcome to my site! </h1>
+    <hr />
+    <div style="text-align: left;">
+      Im on the left side of your screen.
+    </div>
+    <div style="text-align: center;">
+      Right down the middle!
+    </div>
+    <div style="text-align: right;">
+      Look at me! I'm on the right.
+     </div>
+  </body>
+</html>
+```
+
+
+
+
+
 #### Borders
 
 A lot of time, we want to cordon off some content! We can easily do that with a border! Borders are a little weird though (and we'll explore borders more when we work with CSS). Borders have an interesting syntax, when we call border, we need to call it with `border: 'size' 'type' 'color'`, like `border: 1px solid black` or `border: 1px dotted red`. [Check it out](https://codepen.io/bdpastl/pen/LaBeKN):
@@ -758,15 +784,12 @@ A lot of time, we want to cordon off some content! We can easily do that with a 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body style='background-color:lightblue'>
     <h1 style='border: 1px solid black'> Welcome to my site! </h1>
 		<hr />
     <div style='border: 1px dashed red'>
       My site isn't currently much, but give it some time, and this will become super neat!
     </div>
-
   </body>
 </html>
 ```
@@ -782,8 +805,6 @@ Padding and Margins helps us add some space around our content! Padding makes th
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body style='background-color:lightblue'>
     <h1 style='border: 1px solid black; padding: 10px'> Welcome to my site! </h1>
 		<hr />
