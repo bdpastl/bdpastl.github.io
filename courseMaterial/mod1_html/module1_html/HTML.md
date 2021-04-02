@@ -615,6 +615,68 @@ You can also nest Ordered lists inside of Un-ordered lists. And vice-versa!
 
 
 
+#### Tables
+
+Sometimes we need to display data that doesn't quite fit in either an ordered list, or an un-ordered list. A Table is a very popular way to display a large amount of data. If you've ever used Microsoft Excel (or Google Sheets), the concept of a table should feel very familiar.
+
+
+
+Tables (`<table>`) consist of **rows** (`<tr>`), **columns** (`<td>`), and optionally, **headers** (`<th>`).
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Look at this table! </h1>
+    <table>
+      <tr>
+        <th>I'm a header</th>
+        <th>I'm also a header</th>
+      </tr>
+      <tr>
+        <td>I'm in the top left corner</td>
+        <td>I'm in the top right corner</td>
+      </tr>
+      <tr>
+        <td>I'm in the bottom left corner</td>
+        <td>I'm in the bottom right corner</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+
+
+You may have noticed that that table did not have anything visibly dividing each row and column. If you want to add a border around each cell, apply the `border` attribute.
+
+
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Look at this table! </h1>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Nolan Arenado</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td>Tommy Edman</td>
+        <td>25</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+
+
 
 
 ## Attributes
