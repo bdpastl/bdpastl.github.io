@@ -443,26 +443,26 @@ Not all images are the same size. If you need to resize your image, you can scal
 
 So, we just listed all of those really cool things we want to do above! How would we actually write a list of things we like on our about me pages? How about a list?
 
+
+
 #### Unordered Lists:
 
-Unordered Lists are bulleted lists. This is where we will introduce the concept of an **attribute** (don't worry, we'll go into a lot more detail later). Attributes let us futher customize our code!
+Unordered Lists are bulleted lists. This is where we will introduce the concept of an **attribute** (don't worry, we'll go into a lot more detail later). Attributes let us further customize our code!
 
 [Take a look at this default unordered list](https://codepen.io/bdpastl/pen/YgjrVr):
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <h1> Welcome to my site! </h1>
     <hr />
-     <ul>
-       <li>I really like to write code</li>
-       <li>I also really like to take pictures of bugs</li>
-       <li>It would be super neat if I could make a photo blog for all of my bug pictures !</li>
-       <li>Maybe once we learn how to include images into our site we can start posting bug pictures?</li>
-     </ul>
+    <ul>
+      <li>I really like to write code</li>
+      <li>I also really like to take pictures of bugs</li>
+      <li>It would be super neat if I could make a photo blog for all of my bug pictures !</li>
+      <li>Maybe once we learn how to include images into our site we can start posting bug pictures?</li>
+    </ul>
   </body>
 </html>
 ```
@@ -474,40 +474,40 @@ Check out [how these attributes change the list](https://codepen.io/bdpastl/pen/
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <h1> Welcome to my site! </h1>
     <hr />
-     <ul>
-       <li type='square'>I really like to write code</li>
-       <li type='square'>Does that make me a square?</li>
-       <li type='square'>Some people do call me a block head...</li>
-       <li type='square'>Maybe they're just not seeing me at the right ANGLE?</li>
-     </ul>
+    <ul>
+      <li type='square'>I really like to write code</li>
+      <li type='square'>Does that make me a square?</li>
+      <li type='square'>Some people do call me a block head...</li>
+      <li type='square'>Maybe they're just not seeing me at the right ANGLE?</li>
+    </ul>
   </body>
 </html>
 ```
+
+
 
 We can do what we did above, but, that's a lot of work to write `type='square'` on each single list item `<li>`. What we can do instead, is write it on top, at the unordered list `<ul>` level, and the `type='square'` will fall through down to the list items. Check out [how much easier that was to write](https://codepen.io/bdpastl/pen/drjVJV?editors=1100):
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <h1> Welcome to my site! </h1>
     <hr />
-     <ul type='square'>
-       <li>I really like to write code</li>
-       <li>Does that make me a square?</li>
-       <li>Some people do call me a block head...</li>
-       <li>Maybe they're just not seeing me at the right ANGLE?</li>
-     </ul>
+    <ul type='square'>
+      <li>I really like to write code</li>
+      <li>Does that make me a square?</li>
+      <li>Some people do call me a block head...</li>
+      <li>Maybe they're just not seeing me at the right ANGLE?</li>
+    </ul>
   </body>
 </html>
 ```
+
+
 
 The types we can use for unordered lists are:
 
@@ -519,6 +519,27 @@ The types we can use for unordered lists are:
 
 
 
+If one list is not enough... you can make lists of lists! Just like the other HTML tags we've learned, you can nest one `<ul>` inside of another `<ul>`
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Welcome to my site! </h1>
+    <hr />
+    <ul>
+      <li>I'm a list item </li>
+      <ul>
+        <li>I'm a list item... within another list!</li>
+        <li>Me too</li>
+      </ul>
+    </ul>
+  </body>
+</html>
+```
+
+
+
 #### Ordered Lists:
 
 Ordered lists are just like unordered lists, but, well, they're ordered! They're numbered/lettered in some way that gives order to the list! EXCITING! They work in the exact same way of unordered lists, but instead of using the unordered list `<ul>` we use the ordered list `<ol>`. [Check it out:](https://codepen.io/bdpastl/pen/zbLEmo)
@@ -526,20 +547,20 @@ Ordered lists are just like unordered lists, but, well, they're ordered! They're
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body>
     <h1> Welcome to my site for counting!! </h1>
     <hr />
-     <ol>
-       <li> I love counting! </li>
-       <li> Math is super neat!</li>
-       <li> Did you know that accountants count things for a living!? </li>
-       <li> Actuarily, we should account for all mathematically focused jobs!</li>
-     </ol>
+    <ol>
+      <li> I love counting! </li>
+      <li> Math is super neat!</li>
+      <li> Did you know that accountants count things for a living!? </li>
+      <li> Actuarily, we should account for all mathematically focused jobs!</li>
+    </ol>
   </body>
 </html>
 ```
+
+
 
 Just like unordered lists, we can use attributes to change [how we're listing things](https://codepen.io/bdpastl/pen/NJBaJZ):
 
@@ -551,12 +572,12 @@ Just like unordered lists, we can use attributes to change [how we're listing th
   <body>
     <h1> Welcome to my site for counting!! </h1>
     <hr />
-     <ol type='I'>
-       <li> love counting! </li>
-       <li> Roman numerals are super weird!</li>
-       <li> Did you know romans didn't have a number for zero?!? </li>
-       <li> In fact, the Greeks didn't either!! Weird huh??</li>
-     </ol>
+    <ol type='I'>
+      <li> love counting! </li>
+      <li> Roman numerals are super weird!</li>
+      <li> Did you know romans didn't have a number for zero?!? </li>
+      <li> In fact, the Greeks didn't either!! Weird huh??</li>
+    </ol>
   </body>
 </html>
 ```
@@ -571,15 +592,106 @@ Here are the types of ordered lists we can use!
 <ol type='I'></ol> Uppercase roman numerals!
 ```
 
+You can also nest Ordered lists inside of Un-ordered lists. And vice-versa!
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Welcome to my site! </h1>
+    <hr />
+    <ul>
+      <li>I'm a list item in an un-ordered list </li>
+      <ol>
+        <li>I'm first!</li>
+        <li>I'm second!</li>
+      </ol>
+    </ul>
+  </body>
+</html>
+```
+
+
+
+### Tables
+
+Sometimes we need to display data that doesn't quite fit in either an ordered list, or an un-ordered list. A Table is a very popular way to display a large amount of data. If you've ever used Microsoft Excel (or Google Sheets), the concept of a table should feel very familiar.
+
+Tables (`<table>`) consist of **rows** (`<tr>`), **columns** (`<td>`), and optionally, **headers** (`<th>`).
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Look at this table! </h1>
+    <table>
+      <tr>
+        <th>I'm a header</th>
+        <th>I'm also a header</th>
+      </tr>
+      <tr>
+        <td>I'm in the top left corner</td>
+        <td>I'm in the top right corner</td>
+      </tr>
+      <tr>
+        <td>I'm in the bottom left corner</td>
+        <td>I'm in the bottom right corner</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+
+
+You may have noticed that that table did not have anything visibly dividing each row and column. If you want to add a border around each cell, apply the `border` attribute.
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <h1> Look at this table! </h1>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Nolan Arenado</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td>Tommy Edman</td>
+        <td>25</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
 
 
 ## Attributes
 
-​	This is a good a time as any to introduce attributes! So far we've only seen the `type` attribute, but from here on out, we'll be using attributes regularly! There are a ton of attributes. There is absolutely no need to memorize them all, but it is good to know the most used ones off the top of your head!
+This is a good a time as any to introduce attributes! So far we've only seen the `type` attribute, but from here on out, we'll be using attributes regularly! There are a ton of attributes. There is absolutely no need to memorize them all, but it is good to know the most used ones off the top of your head!
 
 ### Style
 
 By using the style attribute, we're allowing for what's called 'inline' styling. That means that we're styling a specific element within our code. This is good to know that we can do (and we will do it for now), but once we learn CSS styling, we won't be doing much inline styling!
+
+Generally, you can apply a style attribute like this 
+
+```html
+<tagname style="property:value;"></tagname>
+```
+
+If you need to apply multple style properties to the same tag, seperate each pair of `property:value` with a semicolon `;` 
+
+```html
+<tagname style="property1:value1; property2:value2;"></tagname>
+```
+
+
 
 ### Color
 
@@ -588,16 +700,14 @@ We can change the color of an attribute by giving it a value! We can change the 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body style='background-color:lightblue'>
     <h1 style='color:red'> Welcome to my site! </h1>
-
     <hr />
      <ul style='background-color:#FFAA00'>
        <li>I really like to write code</li>
        <li style='background-color:blue; color:white'>I especially like to make my page as colorful as possible!</li>
        <li > Too many colors might be rough on the eyes, though....</li>
+       <li style='color: rgb(0, 255, 0)'>Just kidding! Here's a nother color</li>
      </ul>
   </body>
 </html>
@@ -614,11 +724,8 @@ We don't always want to have the same sizes of font in our paragraphs! We might 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body style='background-color:lightblue'>
     <h1> Welcome to my site! </h1>
-
     <hr />
      <ul>
        <li style='font-size:300%'>I really like to write code</li>
@@ -630,43 +737,61 @@ We don't always want to have the same sizes of font in our paragraphs! We might 
 </html>
 ```
 
-So, not only can we control exactly what our `font-size` is by way of using pixels, we can also use a percenage of what our font is (with reference to what it already was) with `%` and `em` (`em` is just equal to the current font size).
+So, not only can we control exactly what our `font-size` is by way of using pixels, we can also use a percentage of what our font is (with reference to what it already was) with `%` and `em` (`em` is just equal to the current font size).
 
 
 
-#### Borders
+### Text Alignment
 
-A lot of time, we want to cordon off some content! We can easily do that with a border! Borders are a little weird though (and we'll explore borders more when we work with CSS). Borders have an intersesting syntax, when we call border, we need to call it with `border: 'size' 'type' 'color'`, like `border: 1px solid black` or `border: 1px dotted red`. [Check it out](https://codepen.io/bdpastl/pen/LaBeKN):
+Just link in Microsoft Word, we can tell our webpage _where_ to display text. Sometimes we want it on the left side of the screen, sometimes we want it on the right side, and we can even align in right down the middle!
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
-  <body style='background-color:lightblue'>
-    <h1 style='border: 1px solid black'> Welcome to my site! </h1>
-		<hr />
-    <div style='border: 1px dashed red'>
-      My site isn't currently much, but give it some time, and this will become super neat!
+  <body>
+    <h1> Welcome to my site! </h1>
+    <hr />
+    <div style="text-align: left;">
+      Im on the left side of your screen.
     </div>
-
+    <div style="text-align: center;">
+      Right down the middle!
+    </div>
+    <div style="text-align: right;">
+      Look at me! I'm on the right.
+     </div>
   </body>
 </html>
 ```
 
 
 
+### Borders
+
+A lot of time, we want to cordon off some content! We can easily do that with a border! Borders are a little weird though (and we'll explore borders more when we work with CSS). Borders have an interesting syntax, when we call border, we need to call it with `border: 'size' 'type' 'color'`, like `border: 1px solid black` or `border: 1px dotted red`. [Check it out](https://codepen.io/bdpastl/pen/LaBeKN):
+
+```html
+<!doctype html>
+<html>
+  <body style='background-color:lightblue'>
+    <h1 style='border: 1px solid black'> Welcome to my site! </h1>
+		<hr />
+    <div style='border: 1px dashed red'>
+      My site isn't currently much, but give it some time, and this will become super neat!
+    </div>
+  </body>
+</html>
+```
 
 
-#### Padding and Margin
+
+### Padding and Margin
 
 Padding and Margins helps us add some space around our content! Padding makes the space inside the element bigger, while margin makes the area outside the element bigger! Take a look at the way that [margin and padding render:](https://codepen.io/bdpastl/pen/NJByKB)
 
 ```html
 <!doctype html>
 <html>
-  <head>
-  </head>
   <body style='background-color:lightblue'>
     <h1 style='border: 1px solid black; padding: 10px'> Welcome to my site! </h1>
 		<hr />
@@ -682,8 +807,4 @@ You may have noticed that we didn't remove the borders! You can add as many styl
 
 
 
-
-
-
-
-So, now you've gotten a crash course in web development, try making your own website! Your homework after this week is to make your own site (and host it on your github.io page!). Take all the code elements from above and mix and match (and even try nesting)!
+So, now you've gotten a crash course in web development, try making your own website! Next week, we'll begin learning CSS.
