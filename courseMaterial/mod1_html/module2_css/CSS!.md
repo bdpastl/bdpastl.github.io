@@ -82,6 +82,8 @@ selector { property: value, property: value}
 
 By using the above format, we've told our site that every time we use a h1, it will always have a border-left, and a padding of 10 pixels, and all of our `<img>` elements will have a width of 500 pixels! As far as our body is concerned, we've only got one, but it's nice to have our styling all in one place instead of spread out throughout the HTML's code!
 
+
+
 ### Classes and Identities:
 
 What if we wanted our divs to all have different styles? We can't do that with the CSS above! By using Classes and Identities, we can use as many different styles as we want!
@@ -89,8 +91,6 @@ What if we wanted our divs to all have different styles? We can't do that with t
 The differences between classes and IDs is that IDs are unique, and classes aren't! Multiple elements can have the same class, whereas only single elements can have an id.
 
 What does this mean?
-
-
 
 #### Classes
 
@@ -117,8 +117,6 @@ To create a Class in a stylesheet, you need to start your selector with a `.` [T
 
 So, now we can use the same class over and over and over again! When we try to use the class, we add the attribute 'class' in our element, and assign it to the name of our class in the css 'IamAClass'.
 
-[You can mix and match as many classes and IDs as you want ( remember, some classes might override others):](https://codepen.io/bdpastl/pen/MRYdoQ)
-
 ```html
 <!doctype html>
 <html>
@@ -131,6 +129,25 @@ So, now we can use the same class over and over and over again! When we try to u
   </head>
   <body>
     <div class='bold italic underline' >My color is red, I am bold, italic, and underlined!</div>
+  </body>
+</html>
+```
+
+
+
+[You can mix and match as many classes as you want ( remember, some classes might override others)](https://codepen.io/bdpastl/pen/MRYdoQ). What color do you think our div will be?
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .a { text-decoration: underline; color: red}
+      .b { color: blue }
+    </style>
+  </head>
+  <body>
+    <div class='a b'>I'M A CLASS AND AN ID!!!</div>
   </body>
 </html>
 ```
@@ -198,7 +215,6 @@ You can also combine a CSS class and a CSS ID.
   </body>
 </html>
 ```
-
 
 
 
