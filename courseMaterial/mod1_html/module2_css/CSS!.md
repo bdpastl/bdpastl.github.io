@@ -39,8 +39,9 @@ Like mentioned above, we've already seen  inline styling. This works completely 
     <h1 style='border-left: 1px solid blue; padding: 10px'> Images are some of the best parts of the internet! </h1>
 		<hr />
    	<div>
-       Check out this beautiful image of my old pet, Rosie!
-        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' width='500px' />
+      	Check out this dog!
+      	<br />
+      	<img src='https://upload.wikimedia.org/wikipedia/commons/5/55/Beagle_600.jpg' width='500px' />
     </div>
   </body>
 </html>
@@ -54,8 +55,9 @@ We have styling for our `body`, `h1`, and our `img`. Instead of our stylings and
   <head>
     <style>
       body { background-color: lightblue }
-      h1 { border-left: 1px solid blue;
-      		 padding: 10px
+      h1 { 
+        		border-left: 1px solid blue;
+      		 	padding: 10px
          }
       img { width: 500px }
     </style>
@@ -64,8 +66,9 @@ We have styling for our `body`, `h1`, and our `img`. Instead of our stylings and
     <h1> Images are some of the best parts of the internet! </h1>
 		<hr />
    	<div>
-       Check out this beautiful image of my old pet, Rosie!
-        <img src='https://raw.githubusercontent.com/LaneMatthewJ/lanematthewj.github.io/master/img/christmasTarantula.JPG' />
+       Check out this dog!
+      	<br />
+      	<img src='https://upload.wikimedia.org/wikipedia/commons/5/55/Beagle_600.jpg' width='500px' />
     </div>
   </body>
 </html>
