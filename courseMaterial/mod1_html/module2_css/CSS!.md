@@ -201,6 +201,18 @@ You can also combine a CSS class and a CSS ID.
 
 
 
+
+#### Things to Remember
+
+- Selector names can **not** start with a number
+  - `<div id="2cool">` is *invalid*
+  - `<div id="twocool">`is valid!
+- Selector names can **not** contain spaces
+  - `<div class="cool kid">` is *invalid*
+  - `<div class="cool-kid">` is valid!
+
+
+
 ### Commenting Your CSS!
 
 When we wrote comments before in HTML, we used  `<!-- -->`. Because CSS is a different language, we comment differently. We use `/* */`. Just like html, you put your comments between the text: `/* I am a comment! */`. [See (or really don't see) the comments in action!](https://codepen.io/bdpastl/pen/XQJweB?editors=1000)
