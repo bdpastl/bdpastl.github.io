@@ -218,6 +218,34 @@ You can also combine a CSS class and a CSS ID.
 
 
 
+#### Specificity Rules
+
+When applying the same CSS style via Tags, Classes, and ID's, the browser will need to decide which style to apply. If this sounds confusing, that's because it is! Check out this example.
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      div { background-color: red }
+      .class { background-color: blue }
+      #id { background-color: green }
+    </style>
+  </head>
+  <body>
+    <div class='class' id='id'>What color am I???</div>
+  </body>
+</html>
+```
+
+The answer is GREEN! In CSS, the most _specific_ rule will be applied. IDs are meant to represent only 1 thing, so it is the most specific. The order of specificity is as follows:
+
+1. IDs
+2. Classes
+3. Tags
+
+
+
 #### Things to Remember
 
 - Selector names can **not** start with a number
