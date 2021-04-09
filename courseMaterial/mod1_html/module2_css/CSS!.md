@@ -96,7 +96,7 @@ What does this mean?
 
 To share CSS among multiple elements, we should use Classes!
 
-Instead of a `#`, we use a `.` [This way we get to share everything!](https://codepen.io/bdpastl/pen/OGPYbM)
+To create a Class in a stylesheet, you need to start your selector with a `.` [This way we get to share everything!](https://codepen.io/bdpastl/pen/OGPYbM)
 
 ```html
 <!doctype html>
@@ -124,14 +124,13 @@ So, now we can use the same class over and over and over again! When we try to u
 <html>
   <head>
     <style>
-      #IamAnID { color: red }
       .bold { font-weight: bold }
       .italic { text-style: italic }
       .underline { text-decoration: underline }
     </style>
   </head>
   <body>
-    <div id='IamAnID' class='bold italic underline' >My color is red, I am bold, italic, and underlined!</div>
+    <div class='bold italic underline' >My color is red, I am bold, italic, and underlined!</div>
   </body>
 </html>
 ```
@@ -182,6 +181,23 @@ A downside to using ID is that only one element should use it in your whole page
 This is because IDs are just that, a specific ID! It's like if somebody was trying to use your driver's license (or school ID, or anything). They're not you! (Note: because our browsers are really good at trying to fix our mistakes, it will render the colors properly, but having more than 1 ID can lead to more problems later on!)
 
 
+
+You can also combine a CSS class and a CSS ID.
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+      #IamAnID { color: red }
+      .IamAClass { text-decoration: underline }
+    </style>
+  </head>
+  <body>
+    <div class='IamAClass' id='IamAnID'>I'M A CLASS AND AN ID!!!</div>
+  </body>
+</html>
+```
 
 
 
