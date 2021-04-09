@@ -28,7 +28,7 @@ CSS Doesn't care how many spaces/new lines your code has, but just make sure you
 
 ## Using CSS:
 
-Like mentioned above, we've already seen  inline styling. This works completely fine and well, but that takes too long to change every single inline style you use. Inline styling is great for one or two changes, but when you have to change every line, that becomes painful. What happens if our website has multiple pages, each with hundreds of lines? Let's quickly convert some inline styled code to use CSS!
+Like mentioned above, we've already seen inline styling. This works completely fine and well, but that takes too long to change every single inline style you use. Inline styling is great for one or two changes, but when you have to change every line, that becomes painful. What happens if our website has multiple pages, each with hundreds of lines? Let's quickly convert some inline styled code to use CSS!
 
 ```html
 <!doctype html>
@@ -90,49 +90,6 @@ The differences between classes and IDs is that IDs are unique, and classes aren
 
 What does this mean?
 
-#### IDs
-
-Creating an ID in a stylesheet, you need to start your selector with the `#`.  [See it in action](https://codepen.io/bdpastl/pen/oOgRjm).
-
-```html
-<!doctype html>
-<html>
-  <head>
-    <style>
-      #IamAnID { color: red }
-    </style>
-  </head>
-  <body>
-    <div id='IamAnID'>WHAT COLOR AM I!?</div>
-  </body>
-</html>
-```
-
-
-
-The ID that we made in our `<style></style>` element is used by the `<div></div>` element in our body. Remember that the ID absolutely has to match (so it's case sensitive).
-
-By using the ID, we then get to turn our div's color to red!
-
-A downside to using ID is that only one element should use it in your whole page! [We shouldn't do this](https://codepen.io/bdpastl/pen/zXxQrj):
-
-```html
-<!doctype html>
-<html>
-  <head>
-    <style>
-      #IamAnID { color: red }
-    </style>
-  </head>
-  <body>
-    <div id='IamAnID'>WHAT COLOR AM I!?</div>
-    <div id='IamAnID'>I'm the same color!</div>
-  </body>
-</html>
-```
-
-This is because IDs are just that, a specific ID! It's like if somebody was trying to use your driver's license (or school ID, or anything). They're not you! (Note: because our browsers are really good at trying to fix our mistakes, it will render the colors properly, but having more than 1 ID can lead to more problems later on!)
-
 
 
 #### Classes
@@ -178,6 +135,53 @@ So, now we can use the same class over and over and over again! When we try to u
   </body>
 </html>
 ```
+
+
+
+#### IDs
+
+Creating an ID in a stylesheet, you need to start your selector with the `#`.  [See it in action](https://codepen.io/bdpastl/pen/oOgRjm).
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+      #IamAnID { color: red }
+    </style>
+  </head>
+  <body>
+    <div id='IamAnID'>WHAT COLOR AM I!?</div>
+  </body>
+</html>
+```
+
+
+
+The ID that we made in our `<style></style>` element is used by the `<div></div>` element in our body. Remember that the ID absolutely has to match (so it's case sensitive).
+
+By using the ID, we then get to turn our div's color to red!
+
+A downside to using ID is that only one element should use it in your whole page! [We shouldn't do this](https://codepen.io/bdpastl/pen/zXxQrj):
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+      #IamAnID { color: red }
+    </style>
+  </head>
+  <body>
+    <div id='IamAnID'>WHAT COLOR AM I!?</div>
+    <div id='IamAnID'>I'm the same color!</div>
+  </body>
+</html>
+```
+
+This is because IDs are just that, a specific ID! It's like if somebody was trying to use your driver's license (or school ID, or anything). They're not you! (Note: because our browsers are really good at trying to fix our mistakes, it will render the colors properly, but having more than 1 ID can lead to more problems later on!)
+
+
 
 
 
