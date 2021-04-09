@@ -13,7 +13,7 @@ CSS Syntax looks completely different from HTML! This is because it's a differen
 When we write CSS in the style section or a CSS file, we don't wrap it in quotations, like we did with inline styling:
 
 ```css 
-selector { property: value, property: value}
+selector { property: value, property: value }
 ```
 
 In CSS, the property:value pair is a declaration.
@@ -107,7 +107,7 @@ Creating an ID in a stylesheet, you need to start your selector with the `#`.  [
 
 
 
-The ID that we made in our `<style></style>` element is used by the `<div></div>` element in our body. Remeber that the ID absolutely has to match (so it's case sensitive).
+The ID that we made in our `<style></style>` element is used by the `<div></div>` element in our body. Remember that the ID absolutely has to match (so it's case sensitive).
 
 By using the ID, we then get to turn our div's color to red!
 
@@ -432,7 +432,7 @@ Sometimes you want to italicise things. When you do that, you can use `font-styl
 
 ###### Font-Size:
 
-​	    Font-Size - you guessed it - it changes the size of our font. Font-size takes in px values (pixel values, like 12px), but also has relatively normal values like xx-small, x-small, smaller, small, medium, large, larger, x-large, and xx-large. Using the px allows for a greater level of custimization, but if you just want some big font and don't want to play with what specific pixel amount you want, [go for the worded values](https://codepen.io/bdpastl/pen/VNvwdK?editors=1000)!
+​	    Font-Size - you guessed it - it changes the size of our font. Font-size takes in px values (pixel values, like 12px), but also has relatively normal values like xx-small, x-small, smaller, small, medium, large, larger, x-large, and xx-large. Using the px allows for a greater level of customization, but if you just want some big font and don't want to play with what specific pixel amount you want, [go for the worded values](https://codepen.io/bdpastl/pen/VNvwdK?editors=1000)!
 
 ```html
 <!doctype html>
@@ -540,7 +540,7 @@ Notice that the div didn't find Fira code or comic sans and went to Helvitica? T
   </head>
   <body>
     <div> If you look at the indent styles, you'll notice that not only are we using percentages but we're also using lengths!  </div>
-    <div class='indent5percent'> When working with inputing certain lengths before, we've only used pixel length!</div>
+    <div class='indent5percent'> When working with inputting certain lengths before, we've only used pixel length!</div>
     <div class='indent10percent'>As it turns out, we can use a ton of different types lengths (though pixels do work really well on their own)! </div>
     <div class='indent15px'> When using HTML, it's good to know that there are always a ton of options to do whatever it is that you want. Some of them may be better than others</div>
     <div class='indent3em'>While some may be better than others, just use what you're most comfortable with to begin! You'll come across other styles of coding in time and learn from there!</div>
@@ -1028,7 +1028,7 @@ Just like 'border', we can access specific sides for our [margins and padding](h
 
 
 
- Suppose we wated our inline block to have a certain amount of width? It won't work because display's inline value takes away all [width, height, margin-top, margin-bottom, and float properties](https://codepen.io/bdpastl/pen/WWQNWa?editors=1000).
+ Suppose we wanted our inline block to have a certain amount of width? It won't work because display's inline value takes away all [width, height, margin-top, margin-bottom, and float properties](https://codepen.io/bdpastl/pen/WWQNWa?editors=1000).
 
 ```html
 <!doctype html>
